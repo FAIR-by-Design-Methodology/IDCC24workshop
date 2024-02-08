@@ -1,10 +1,10 @@
-site_name: FAIR-by-Design Template Repository
+site_name: FAIR-by-Design Workshop
 docs_dir: resources
 theme:
   name: material
   palette:
     primary: custom
-  logo: attachments/logo-white.png
+  logo: attachments/logo.png
   custom_dir: resources/overrides
   features:
     - navigation.footer
@@ -23,7 +23,7 @@ plugins:
         - "*.gz"
         - "*.pptx"
         - "*_plan.md"
-        - "*_facilitator_guide.md"
+        - "*facilitator_guide.md"
         - "*syllabus.md"
       regex:
         - '.*\.(tmp|bin|tar)$'
