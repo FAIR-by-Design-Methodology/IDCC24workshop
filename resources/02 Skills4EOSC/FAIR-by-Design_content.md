@@ -26,6 +26,6 @@ At the end provide a short summary of the main points of the learning unit (thes
 
 ## Suggested Reading
 
-- provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level
-- [Markdown guide](https://www.markdownguide.org/), free and open-source reference guide that explains how to use Markdown.
+- [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
+- [FAIR-by-Design Learning Materials Methodology Training of Trainers](https://zenodo.org/records/10063110)
 

@@ -51,7 +51,7 @@ R: Software is both usable (can be executed) and reusable (can be understood, mo
 - R2. Software includes qualified references to other software. 
 - R3. Software meets domain-relevant community standards.
 
-## FAIR Metric
+## FAIR Metrics
 
 The metrics presented in the next sections are specified following the template, modified from Wilkinson et al. (2018) and Devaraju et al. (2022):
 
