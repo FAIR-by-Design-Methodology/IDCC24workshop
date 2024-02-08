@@ -11,13 +11,24 @@ tags:
 Introduction
 
 
-# Learning Content Topic
+# FAIR-by-Design Methodology for Learning Materials
+
+![FAIR-by-Design Methodology for Learning Materials](attachments/FbD-org.png)
 
 Here goes the content of the learning unit divided into a number of subtopics and any additional headings as necessary.
 
 Use blank rows to divide between paragraphs.
 
 References to external or internal content provided elsewhere should be linked with [hyperlinks](https://pages.github.com/).
+
+# FAIR-by-Design Methodology for Software Objects
+
+![Software Development Process](attachments/SDP.png)
+Taken from https://www.spaceotechnologies.com/blog/software-development-process/ 
+
+
+![FAIR-by-Design Methodology for Software Objects](attachments/FbD-soft.png)
+
 
 
 ## Summary
