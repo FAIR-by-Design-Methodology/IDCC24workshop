@@ -20,6 +20,8 @@ The objective for the second part is to motivate outside-the-box thinking among 
 
 ## Suggested Reading
 
-- provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level
-- [Markdown guide](https://www.markdownguide.org/), free and open-source reference guide that explains how to use Markdown.
+- [D4.4 - Guidelines for recommended metadata standard for research software within EOSC](https://zenodo.org/records/8199104)
+- [D5.2 - Metrics for automated FAIR software assessment in a disciplinary context](https://zenodo.org/records/10047401)
+- [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
+- [FAIR-by-Design Learning Materials Methodology Training of Trainers](https://zenodo.org/records/10063110)
 
