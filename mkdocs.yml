@@ -14,7 +14,7 @@ plugins:
       version_selector: true
   - exclude:
       glob:
-        - "Activities/*"
+        - "*Activities/*"
         - "*Assessment/*"
         - "*Templates/*"
         - "*Feedback/*"
