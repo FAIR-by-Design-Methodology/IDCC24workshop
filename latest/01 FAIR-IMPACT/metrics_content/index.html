@@ -272,9 +272,68 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          FAIR Research Software Metrics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         FAIR Research Software Metrics
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose-and-scope" class="md-nav__link">
+    Purpose and Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair4rs" class="md-nav__link">
+    FAIR4RS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-metric" class="md-nav__link">
+    FAIR Metric
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -355,6 +414,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose-and-scope" class="md-nav__link">
+    Purpose and Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair4rs" class="md-nav__link">
+    FAIR4RS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-metric" class="md-nav__link">
+    FAIR Metric
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -372,12 +474,12 @@
     
       
       
-        <span class="md-tag">FAIR Software Objects</span>
+        <span class="md-tag">FAIR Research Software</span>
       
     
       
       
-        <span class="md-tag">FAIR assessment</span>
+        <span class="md-tag">FAIR Assessment</span>
       
     
   </nav>
@@ -385,18 +487,86 @@
 
 
 
+<blockquote>
+<p>The content of this page is based on - <a href="https://zenodo.org/records/10047401">D5.2 - Metrics for automated FAIR software assessment in a disciplinary context</a> by FAIR-IMPACT</p>
+</blockquote>
 <h1 id="introduction">Introduction</h1>
-<p>Introduction</p>
-<h1 id="learning-content-topic">Learning Content Topic</h1>
-<p>Here goes the content of the learning unit divided into a number of subtopics and any additional headings as necessary.</p>
-<p>Use blank rows to divide between paragraphs.</p>
-<p>References to external or internal content provided elsewhere should be linked with <a href="https://pages.github.com/">hyperlinks</a>.</p>
+<p>The deliverable from Task 5.2 (FAIR metrics for research software) on “Metrics for automated FAIR software assessment in a disciplinary context” is part of Work Package 5 on “Metrics, Certification and Guidelines“ within the FAIR-IMPACT project. It builds on the outputs of the RDA/ReSA/FORCE11 FAIR for Research Software WG and existing guidelines and metrics for research software to define metrics for the assessment of the “FAIR Principles for Research Software (FAIR4RS Principles)”. FAIR software can be defined as research software which adheres to these principles, and the extent to which a principle has been satisfied can be measured against the criteria in a metric. This work on software metrics was coordinated with Task 4.3 (Standard metadata for research software) from Work Package 4 on “Metadata and Ontologies”, which focuses on “Guidelines for recommended metadata standard for research software within EOSC“, to ensure that metrics are related to their recommended metadata properties.</p>
+<p>The deliverable defines 17 metrics that can be used to automate the assessment of research software against the FAIR4RS Principles, and provides examples of how these might be implemented in one exemplar disciplinary context of the social sciences. The FAIR-IMPACT project will then work to implement the metrics as practical tests by extending existing assessment tools such as F-UJI; this work will be reported in Q2 2024. Feedback will be sought from the community, through webinars and an open request for comments. The information from all these sources will be used to publish a revised version of the metrics.</p>
+<h2 id="purpose-and-scope">Purpose and Scope</h2>
+<p>To increase the adoption and uptake of the FAIR principles, this deliverable presents 17 metrics that can be used to translate the FAIR guiding principles into practical tests to measure the FAIRness of research software, that can be implemented in an automated fashion via assessment tools for the different infrastructures in the scholarly ecosystem (software aggregators, software publishers, scholarly repositories and software archives).</p>
+<p>The metrics are developed to be domain-agnostic, and take into account characteristics which are specific to research software such as its executability, its composite nature and its continuous evolution and versioning. Though most of the FAIR4RS Principles (summarised in Table 1) can be turned into a measurable metric, some (e.g. “F2. Software is described with rich metadata”) are much harder to quantify, and hence be assessed by any automated tool in the future. In these cases, it may only be possible to test for existence rather than quality or correctness. Others, such as “R3. Software meets domain-relevant community standards” can be seen to apply to many metrics, and the implementation of a metric will reference these community standards.</p>
+<h2 id="fair4rs">FAIR4RS</h2>
+<p>The FAIR Principles for Research Software (FAIR4RS Principles) are (from Table 1 in Chue Hong et al., 2022):</p>
+<p>F: Software, and its associated metadata, is easy for both humans and machines to find.</p>
+<ul>
+<li>F1. Software is assigned a globally unique and persistent identifier.<ul>
+<li>F1.1. Components of the software representing levels of granularity are assigned distinct identifiers.</li>
+<li>F1.2. Different versions of the software are assigned distinct identifiers.</li>
+</ul>
+</li>
+<li>F2. Software is described with rich metadata.</li>
+<li>F3. Metadata clearly and explicitly include the identifier of the software they describe. F4. Metadata are FAIR, searchable and indexable.</li>
+</ul>
+<p>A: Software, and its metadata, is retrievable via standardized protocols.</p>
+<ul>
+<li>A1. Software is retrievable by its identifier using a standardized communications protocol.<ul>
+<li>A1.1. The protocol is open, free, and universally implementable.</li>
+<li>A1.2. The protocol allows for an authentication and authorization procedure, where necessary.</li>
+</ul>
+</li>
+<li>A2. Metadata are accessible, even when the software is no longer available.</li>
+</ul>
+<p>I: Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards.</p>
+<ul>
+<li>I1. Software reads, writes and exchanges data in a way that meets domain-relevant community standards. I2. Software includes qualified references to other objects.</li>
+</ul>
+<p>R: Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).</p>
+<ul>
+<li>R1. Software is described with a plurality of accurate and relevant attributes.<ul>
+<li>R1.1. Software is given a clear and accessible license.</li>
+<li>R1.2. Software is associated with detailed provenance.</li>
+</ul>
+</li>
+<li>R2. Software includes qualified references to other software. </li>
+<li>R3. Software meets domain-relevant community standards.</li>
+</ul>
+<h2 id="fair-metric">FAIR Metric</h2>
+<p>The metrics presented in the next sections are specified following the template, modified from Wilkinson et al. (2018) and Devaraju et al. (2022):</p>
+<ul>
+<li>Metric Identifier - The local identifier of the metric (FRSM-XX) FRSM: FAIR Research Software Metric.</li>
+<li>Metric Name - Metric name in a human readable form.</li>
+<li>Description - The definition of the metric, including examples.</li>
+<li>FAIR4RS Principle - The FAIR4RS principle(s) most related to the metric.</li>
+<li>RSMD Recommendation - The FAIR-IMPACT RSMD recommendation(s) most related to the metric</li>
+<li>Assessment - Requirements and methods to perform the assessment against the metric. This includes a suggested compliance level (essential / important / useful), based on the concepts introduced by the FAIR Data Maturity Model Working Group (2020). Criteria at each level will change as adoption of FAIR increases.</li>
+<li>Comments - Further notes associated with the implementation of the metric, which may include related resources, constraints and limitations.</li>
+</ul>
+<p>List of FAIR Research Software Metrics:</p>
+<ul>
+<li>FRSM-01 - Does the software have a globally unique and persistent identifier?</li>
+<li>FRSM-02 - Do the different components of the software have their own identifiers?</li>
+<li>FRSM-03 - Does each version of the software have a unique identifier?</li>
+<li>FRSM-04 - Does the software include descriptive metadata which helps define its purpose?</li>
+<li>FRSM-05 - Does the software include development metadata which helps define its status?</li>
+<li>FRSM-06 - Does the software include metadata about the contributors and their roles?</li>
+<li>FRSM-07 - Does the software metadata include the identifier for the software?</li>
+<li>FRSM-08 - Does the software have a publicly available, openly accessible and persistent metadata record?</li>
+<li>FRSM-09 - Is the software developed in a code repository / forge that uses standard communications protocols?</li>
+<li>FRSM-10 - Are the formats used by the data consumed or produced by the software open and a reference provided to the format?</li>
+<li>FRSM-11 - Does the software use open APIs that support machine-readable interface definition?</li>
+<li>FRSM-12 - Does the software provide references to other objects that support its use?</li>
+<li>FRSM-13 - Does the software describe what is required to use it?</li>
+<li>FRSM-14 - Does the software come with test cases to demonstrate it is working?</li>
+<li>FRSM-15 - Does the software source code include licensing information for the software and any bundled external software?</li>
+<li>FRSM-16 - Does the software metadata record include licensing information?</li>
+<li>FRSM-17 - Does the software include provenance information that describe the development of the software?</li>
+</ul>
 <h2 id="summary">Summary</h2>
-<p>At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)</p>
+<p>The FAIR Impact project will work to implement the metrics as practical tests by extending existing assessment tools such as F-UJI; this work will be reported in Q2 2024.</p>
 <h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
-<li>provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level</li>
-<li><a href="https://www.markdownguide.org/">Markdown guide</a>, free and open-source reference guide that explains how to use Markdown.</li>
+<li><a href="https://zenodo.org/records/10047401">D5.2 - Metrics for automated FAIR software assessment in a disciplinary context</a></li>
 </ul>
 
 
