@@ -23,6 +23,7 @@ Lastly, T4.3 will continue its efforts to make the RSMD guidelines normative wit
 ## Describing and sharing software
 
 The Scholarly Infrastructure for Research Software (SIRS) report (EOSC Executive Board & EOSC Secretariat, 2020) identified four major challenges that need to be addressed as ARDC:
+
 - A for Archiving to ensure availability and accessibility
 - R for Referencing to ensure precise identification for reuse and reproducibility
 - D for Describing to ensure software can be found and understood
@@ -32,19 +33,22 @@ To establish a FAIR EOSC, software should be part of this goal following the hig
 
 ## Scope
 
-We use the Research Software definition from the FAIR4RS output:
+FAIR-IMPACT uses the Research Software definition from the FAIR4RS output:
+
 > Research Software includes source code files, algorithms, scripts, computational workflows and executables that were created during the research process or for a research purpose. Software components (e.g., operating systems, libraries, dependencies, packages, scripts, etc.) that are used for research but were not created during or specifically for research should be considered software in research and not Research Software. This differentiation may vary between disciplines. The minimal requirement for achieving computational reproducibility is that all the computational components (Research Software, software used in research, and hardware) used during the research are identified, described, and made accessible to the extent that is possible.
 (Gruenpeter et al., 2021)
 
 ## Goals
 
 FAIR-IMPACT Guidelines for recommended metadata standards for research software within the EOSC aim to: 
+
 1. create a cohesive and standardized approach to research software metadata collection and curation that benefits all stakeholders involved; 
 2. help the target audience identifying key requirements and best practices that can improve the quality and reproducibility of their research software.
 
 ## State of The Art of Best Practices and Guidelines
 
 FAIR-IMPACT covers the main themes that are part of the prominent practices and guidelines both within and outside academia. The analysis is divided thematically, covering:
+
 - Software development platforms and version control systems
 - Accessibility and preservation (A = Archive)
 - Reference and identification (R = Reference)
@@ -58,6 +62,7 @@ FAIR-IMPACT covers the main themes that are part of the prominent practices and 
 FAIR-IMPACT explores and analyzes the roles and types of metadata in software collection, curation, preservation, and usage, distinguishing between intrinsic and extrinsic metadata.
 
 Intrinsic and extrinsic metadata is defined as follows:
+
 - Intrinsic metadata - Refers to the information that is inherently embedded within a software source code artifact. It includes metadata files that are captured in the main source code directory (such as README file, codemeta.json file, etc.)
 - Extrinsic metadata - Refers to the information that is external to the software source code artifact. It includes metadata elements that provide context, provenance, and additional information about the software.
 
@@ -78,6 +83,7 @@ The RSMD guidelines are organized into seven distinct aspects, each with a clear
 ## Making it Possible
 
 FAIR-IMPACY has collected actions and requirements that should be executed by scholarly infrastructures (e.g scholarly repositories, aggregators and publishers) using the RSMD thematics, note that this list isn’t exhaustive:
+
 - General requirements:
     - Ensure metadata records are licensed under CC0
     - Provide mechanisms to moderate and curate metadata to ensure curation quality of software records in the infrastructure collection
