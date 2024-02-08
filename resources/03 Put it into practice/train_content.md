@@ -1,9 +1,9 @@
 ---
-title: "Introduction"
+title: "FAIR learning materials"
 author: "Skills4EOSC & FAIR-IMPACT"
 tags: 
     - FAIR-by-Design Learning Materials
-    - FAIR Software Objects
+    - FAIR Learning Objects
     - FAIR assessment
 ---
 
