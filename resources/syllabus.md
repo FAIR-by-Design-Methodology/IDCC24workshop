@@ -83,6 +83,7 @@ FAIR-by-design, FAIR software, FAIRness, metadata, methodology
 
 ## Resources and Materials
 
+Official event page: https://www.eventbrite.co.uk/e/idcc24-w6-fair-by-design-introducing-skills4eosc-and-fair-impact-tickets-792998538977
 All resource and materials can be found at https://github.com/FAIR-by-Design-Methodology/IDCC24workshop
 
 ## Author(s)
