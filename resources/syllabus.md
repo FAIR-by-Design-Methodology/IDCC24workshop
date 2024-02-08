@@ -29,7 +29,7 @@ accessCost: "Y"
 expertiseLevel: "Beginner"
 ---
 
-![Header with Skills4EOSC funding information](./attachments/header.png)
+![Header with funding information](./attachments/header.png)
 
 # IDCC24 W6 - FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT 
 
