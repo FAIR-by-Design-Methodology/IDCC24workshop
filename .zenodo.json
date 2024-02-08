@@ -1,0 +1,50 @@
+{
+  "creators": [
+    {
+      "affiliation": "UKIM",
+      "name": "Filiposka, Sonja",
+      "orcid": "0000-0003-0034-2855"
+    },
+    {
+      "affiliation": "DCC",
+      "name": "Green, Dominique",
+      "orcid": "0000-0002-9411-4281"
+    },
+    {
+      "affiliation": "DCC",
+      "name": "Davidson, Joy",
+      "orcid": "0000-0003-3484-7675"
+    },
+    {
+      "affiliation": "University of Edinburgh",
+      "name": "Chue Song, Neil",
+      "orcid": "0000-0002-8876-7606"
+    },
+    {
+      "affiliation": "INRIA",
+      "name": "Gruenpeter, Morane",
+      "orcid": "0000-0002-9777-5560"
+    }
+  ],
+  "description": "The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects.",
+  "keywords": [
+    "FAIR-by-Design",
+    "FAIR software",
+    "FAIR learning materials"
+  ],
+  "license": "CC-BY-4.0",
+  "publication_date": "2024-02-19",
+  "title": "FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT",
+  "version": "1.0.0",
+  "upload_type": "lesson",
+  "communities": [
+    {
+      "identifier": "skills4eosc"
+    }
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101058527"
+    }
+  ]
+}
