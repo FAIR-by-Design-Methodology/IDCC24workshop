@@ -7,6 +7,7 @@ author:
     - Joy Davidson
     - Neil Chue Song
     - Morane Gruenpeter
+    - Mario Antonioletti
 tags: 
     - FAIR-by-Design
     - FAIR software
@@ -88,11 +89,11 @@ All resource and materials can be found at https://github.com/FAIR-by-Design-Met
 
 ## Author(s)
 
-Sonja Filiposka, Dominique Green, Joy Davidson, Neil Chue Song, Morane Gruenpeter
+Sonja Filiposka, Dominique Green, Joy Davidson, Neil Chue Song, Morane Gruenpeter, Mario Antonioletti
 
 # Trainer(s)
 
-Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Song[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560)
+Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Song[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
 
 ## Contact information
 
