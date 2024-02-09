@@ -51,23 +51,30 @@ The methodology is broken down into a number of stages that are connected in a f
     - upon the identification of potential improvements that should be implemented, the development processes circles back to the first stage aiming to publish a new improved version of the learning materials.
 
 
-
-
 # FAIR-by-Design Methodology for Software Objects
+
+When it comes to software objects, their development is governed using the software development process, as presented in the image below.
 
 ![Software Development Process](attachments/SDP.png)
 Taken from https://www.spaceotechnologies.com/blog/software-development-process/ 
 
+Upon a closer inspection of the steps necessary to build software objects it is clear that they can be relatively straightforward mapped into the FAIR-by-Design methodology, adapting it to aim towards the development of FAIR software objects. 
+
+The necessary high-level modifications of the FAIR-by-Design Methodology are presented in the following image.
 
 ![FAIR-by-Design Methodology for Software Objects](attachments/FbD-soft.png)
 
+It is evident that the changes required to adapt the methodology to software objects are minimal, with the stages remaining completely the same, while the necessary changes focus on domain specifics such as a different metadata schema, choice of license, and structuring.
+
+1. Prepare
+    - 
 
 
-## Summary
+# Summary
 
 At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)
 
-## Suggested Reading
+# Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
 - [FAIR-by-Design Learning Materials Methodology Training of Trainers on Zenodo](https://zenodo.org/records/10063110)
