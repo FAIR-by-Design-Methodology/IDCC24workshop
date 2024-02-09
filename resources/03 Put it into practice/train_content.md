@@ -86,6 +86,7 @@ Follow the defined steps to go through the activity and learn how to implement F
         - note that the starting portion of the file between the two --- lines is the file header, this is where the machine-readable metadata is located
         - everything bellow the second --- line is the actual content of the file that is rendered and visible on the right hand side
     - provide human-readable metadata for your example training starting from Title of training (row 31 in the editor)
+        - use the [Bloom's taxonomy](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/#defining-learning-objectives) to define tangible learning objectives
     - provide machine-readable metadata in the file header
         - note that the content is the same, so you should be copy pasting information from below. The field names used in this part correspond to the names provided in the RDA minimal metadata schema
     - do you feel that the syllabus content is complete? taking into account the rest of the information that will be provided in each learning unit, is something missing in the syllabus?
