@@ -521,12 +521,48 @@ Taken from https://www.spaceotechnologies.com/blog/software-development-process/
 <p>It is evident that the changes required to adapt the methodology to software objects are minimal, with the stages remaining completely the same, while the necessary changes focus on domain specifics such as a different metadata schema, choice of license, and structuring.</p>
 <ol>
 <li>Prepare<ul>
-<li></li>
+<li>In the Prepare stage researchers need to expand their skillset so that they can practically implement the FAIR principles for software objects. This means that in addition to software development skills, they should also be able to work with PIDs, repositories and catalogues, use a corresponding metadata schema, choose a license, and know how to acknowledge reused work with attribution.</li>
+<li>One of the important tasks in this stage is to familiarize with the recommended guidelines on adding metadata to software as this is the basis for the description of the FAIR software objects.</li>
+<li>This is the initial stage of the software development process and thus it is important that in this stage the researcher clearly defines the scope of the software by performing a requirement analysis. Based on the analysis the software development plan can be developed and necessary resources can be allocated. </li>
+</ul>
+</li>
+<li>Discover<ul>
+<li>Once the vision of what needs to be created is clear, the next step is to discover any existing software objects that can be reused. In this stage there are different levels of reuse that may be of importance such as system reuse, application reuse, component-based reuse and object and function reuse. Most frequently reuse is done on the lowest level: object and function reuse by importing standard libraries.</li>
+</ul>
+</li>
+<li>Design<ul>
+<li>At this stage the developer has a clear idea of what is needed and what already exists. The next step is to sketch a conceptual map of the software that will help crystalize the ideas and prepare for defining the software architecture. The software architecture is then used as a high-level blueprint for the development of the software. </li>
+<li>In the design stage the overall structure of the software is defined identifying all modules and libraries necessary together with the information on what can be reused and what needs to be designed from scratch. Careful attention should be put on license compatibility during this work.</li>
+<li>Based on the architecture a prototype is initially developed to test out the ideas. </li>
+<li>The design stage should also take into account the non-functional and other requirements for the software such as usability, security, scalability, extensibility, etc.</li>
+</ul>
+</li>
+<li>Produce<ul>
+<li>When the design is complete, it is time to move to the produce stage and choose the tools and file formats necessary to develop all of the software components. It is recommended that a collaborative, versioning system is used to keep track of all contributions and changes.</li>
+<li>Together with the code development, the documentation should also be developed while following best practices for creating software documentation such as naming conventions and using conventional commits. </li>
+<li>During this stage the developers must not forget to add the human-readable and machine-readable metadata in the source files as well as to use semantic versioning rules for better tracking.</li>
+<li>The final step in the produce stage is to perform an internal Quality Assessment, i.e. software testing, that will check that all elements are performing as per the requirements.</li>
+</ul>
+</li>
+<li>Publish<ul>
+<li>A satisfactory completion of the internal QA leads to the publication steps. Before the actual publication, very important final touches need to be done including activities such as the definition of the content of accompanying files: license, readme, citation, code of conduct and alike.</li>
+<li>Once all necessary elements are in place, the software can be published to a selected repo. If GitHub was chosen as the repository in the Produce stage, then the automated bridge between GitHub and Zenodo can be used to create a Zenodo record and obtain a DOI PID for the software.  </li>
+<li>In addition, the software should also be recorded in a suitable archiving catalogue such as Software Heritage.</li>
+</ul>
+</li>
+<li>Verify<ul>
+<li>The final steps in the methodology is to perform another QA round, this time focusing on external QA. At this stage the overall level of FAIRness of the software needs to be checked and external experts should be used to provide unbiased feedback regarding the quality of the produced software. </li>
+<li>This stage also focuses on setting up different mechanism for gathering feedback so that the software can be further improved. In this way it fosters the co-creation process that empowers other developers and researchers to actively participate in the development.</li>
+</ul>
+</li>
+<li>Continuous Improvement<ul>
+<li>the gathered internal and external feedback should be used as input for the development of a new version of the software.</li>
+<li>upon the identification of potential improvements that should be implemented, the development processes circles back to the first stage aiming to publish a new improved version of the research software.</li>
 </ul>
 </li>
 </ol>
 <h1 id="summary">Summary</h1>
-<p>At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)</p>
+<p>Comparing the detailed steps for each of the stages in the FAIR-by-Design Methodology implemented for learning materials and software objects it is clear that the activities that ensure FAIRness of the final product are very similar. Both cases are specific examples of a more generic class of digital objects that need to be developed in a FAIR-by-Design way. This comparison shows that the methodology provides a generic high-level guidance helping the user to achieve FAIRness and high-quality product by following common steps that ensure case is taken regarding Findability, Accessibility, Interoperability and Reusability.</p>
 <h1 id="suggested-reading">Suggested Reading</h1>
 <ul>
 <li><a href="https://zenodo.org/records/8419242">Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development</a></li>
