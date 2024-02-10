@@ -158,6 +158,7 @@ Note: the steps in this activity are designed so that you don't need to have Git
             - to create an AUTHORS file, create a new file using a basic text editor
             - copy/paste the content of the example file from [Google Open Source](https://opensource.google/documentation/reference/releasing/authors)
             - make the necessary changes
+                - to provide additional information on author roles take a look at https://sdruskat.net/software-authorship/ 
             - save the file as AUTHORS or AUTHORS.txt
             - drag and drop the file to the root of your GitHub repo
             - commit your changes
