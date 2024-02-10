@@ -43,23 +43,23 @@ FAIR software objects should be assessed for their level of FAIRness in order to
 
 | ** Identifier ** | ** Name ** |
 |---|---|
-| ** FRSM-01 ** | Does the software have a globally unique and persistent identifier? |
-| ** FRSM-02 ** | Do the different components of the software have their own identifiers? |
-| ** FRSM-03 ** | Does each version of the software have a unique identifier? |
-| ** FRSM-04 ** | Does the software include descriptive metadata which helps define its purpose? |
-| ** FRSM-05 ** | Does the software include development metadata which helps define its status? |
-| ** FRSM-06 ** | Does the software include metadata about the contributors and their roles? |
-| ** FRSM-07 ** | Does the software metadata include the identifier for the software? |
-| ** FRSM-08 ** | Does the software have a publicly available, openly accessible and persistent metadata record? |
-| ** FRSM-09 ** | Is the software developed in a code repository / forge that uses standard communications protocols? |
-| ** FRSM-10 ** | Are the formats used by the data consumed or produced by the software open and a reference provided to the format? |
-| ** FRSM-11 ** | Does the software use open APIs that support machine-readable interface definition? |
-| ** FRSM-12 ** | Does the software provide references to other objects that support its use? |
-| ** FRSM-13 ** | Does the software describe what is required to use it? |
-| ** FRSM-14 ** | Does the software come with test cases to demonstrate it is working? |
-| ** FRSM-15 ** | Does the software source code include licensing information for the software and any bundled external software? |
-| ** FRSM-16 ** | Does the software metadata record include licensing information? |
-| ** FRSM-17 ** | Does the software include provenance information that describe the development of the software? |
+| **FRSM-01** | Does the software have a globally unique and persistent identifier? |
+| **FRSM-02** | Do the different components of the software have their own identifiers? |
+| **FRSM-03** | Does each version of the software have a unique identifier? |
+| **FRSM-04** | Does the software include descriptive metadata which helps define its purpose? |
+| **FRSM-05** | Does the software include development metadata which helps define its status? |
+| **FRSM-06** | Does the software include metadata about the contributors and their roles? |
+| **FRSM-07** | Does the software metadata include the identifier for the software? |
+| **FRSM-08** | Does the software have a publicly available, openly accessible and persistent metadata record? |
+| **FRSM-09** | Is the software developed in a code repository / forge that uses standard communications protocols? |
+| **FRSM-10** | Are the formats used by the data consumed or produced by the software open and a reference provided to the format? |
+| **FRSM-11** | Does the software use open APIs that support machine-readable interface definition? |
+| **FRSM-12** | Does the software provide references to other objects that support its use? |
+| **FRSM-13** | Does the software describe what is required to use it? |
+| **FRSM-14** | Does the software come with test cases to demonstrate it is working? |
+| **FRSM-15** | Does the software source code include licensing information for the software and any bundled external software? |
+| **FRSM-16** | Does the software metadata record include licensing information? |
+| **FRSM-17** | Does the software include provenance information that describe the development of the software? |
 
 3. Use an automated tool to assess the software FAIRness
 
