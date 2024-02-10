@@ -442,9 +442,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#learning-content-topic" class="md-nav__link">
-    Learning Content Topic
+  <a href="#describing-research-software-using-metadata" class="md-nav__link">
+    Describing research software using metadata
   </a>
+  
+    <nav class="md-nav" aria-label="Describing research software using metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brief-description-of-the-software" class="md-nav__link">
+    Brief description of the software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -553,9 +566,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#learning-content-topic" class="md-nav__link">
-    Learning Content Topic
+  <a href="#describing-research-software-using-metadata" class="md-nav__link">
+    Describing research software using metadata
   </a>
+  
+    <nav class="md-nav" aria-label="Describing research software using metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brief-description-of-the-software" class="md-nav__link">
+    Brief description of the software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -611,34 +637,137 @@
 
 
 <h1 id="introduction">Introduction</h1>
-<p>Introduction</p>
+<p>The purpose of this activity is to learn the basics of following the RSMD guidelines and try out the main themes related to RSMD:</p>
+<ul>
+<li>Software development platforms and version control systems</li>
+<li>Accessibility and preservation (A = Archive)</li>
+<li>Reference and identification (R = Reference)</li>
+<li>Reuse, licensing and legal aspects</li>
+<li>Description and classification (D = Describe)</li>
+<li>Credit and attribution (C = Cite)</li>
+<li>Re-executability: dependencies and execution environment</li>
+</ul>
+<p>by creating and describing an example repository of research software on GitHub.</p>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>min one learning objective using the verbs from the Blooms taxonomy</li>
+<li>describe research software using metdata</li>
+<li>publish research software on Zenodo</li>
+<li>archive research software on Software Heritage </li>
 </ul>
 <h2 id="target-audience">Target Audience</h2>
 <ul>
-<li>who is this learning unit meant for</li>
+<li>research software developers</li>
 </ul>
 <h2 id="duration">Duration</h2>
 <ul>
-<li>time needed to learn the provided content</li>
+<li>1 hrs</li>
 </ul>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li>list any knowledge that is required so that the learning unit can be followed</li>
+<li>familiarity with RSMD guidelines</li>
+<li>GitHub profile</li>
 </ul>
 <h2 id="learning-tools">Learning Tools</h2>
 <ul>
-<li>list any tools that are necessary to be used to complete the learning unit</li>
-<li>examples include required software, access to resources, etc.</li>
+<li>browser, online tools</li>
+<li>available example source code</li>
 </ul>
-<h2 id="learning-content-topic">Learning Content Topic</h2>
-<p>Create a repo on GitHub
-Use GitDesktop
-Add sample Jupyter notebooks (supplied) or other software of choice
-Adapt file headers with info
-Define Metadata (metacode.json)
+<h2 id="describing-research-software-using-metadata">Describing research software using metadata</h2>
+<p>For the purposes of practicing the implementation of the RSMD guidelines we are going to create an example test source code repository on GitHub and describe the example software provided. Then we will take a look at the steps required to publish the repository on Zenodo and obtain a DOI and archive the repository in Software Heritage. We are not going to do any actual publishing or archiving to avoid adding test examples in the official catalogues.</p>
+<p>Note: the steps in this activity are designed so that you don't need to have GitDesktop or any similar solution installed on your laptop to complete them. If you are familiar with using GitDesktop, you should make all changes to the repo using push and commit via GitDesktop</p>
+<ol>
+<li>
+<p>The first step of the process is to create a new example repository in GitHub. For these purposes you will need a GitHub account. If you don't already have a GitHub account please create one on https://github.com/ by following the steps outlined in the <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">official GitHub guide</a>.</p>
+</li>
+<li>
+<p>Once you login to GitHub, you can create a new test repository by clicking on the New green button in the upper left corner.</p>
+</li>
+<li>
+<p>Follow the steps of creating a repository</p>
+<ul>
+<li>define the name of the repository</li>
+<li>make the repository private, as we are creating a repository for learning and testing (otherwise it should be public)</li>
+<li>choose Add a README file so that we can provide description of the repo</li>
+<li>you don't have to add .gitignore at this point</li>
+<li>choose a license (remember that in many situations your institution has a policy defining under license your research software should be available to others)</li>
+<li>finally click on Create repository</li>
+<li>the new repo will be created with two files inside: README.md and LICENSE</li>
+</ul>
+</li>
+<li>
+<p>Add example source code to your repo (you can choose your own source code, or use the provided example)</p>
+<ul>
+<li>we have prepared an example Jupyter notebook to serve as the source code together with some sample data</li>
+<li>consider yourselves as authors and contributors for this example software</li>
+<li>download the notebook and data sample from <a href="https://drive.google.com/drive/folders/1JU7duwCmjianPiWO-iJ_0EcFAC5O9HHv?usp=sharing">Google Drive</a><ul>
+<li>following best practices for repo structure there are two folders<ul>
+<li>src that contains an example Jupyter notebook that is our source code</li>
+<li>samples that contains data samples that are the input for the notebook</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>unzip the downloaded file</li>
+<li>drag and drop the two folders (src and samples) into your newly created repo</li>
+<li>wait for the upload to be complete</li>
+<li>change the commit message and description if you want </li>
+<li>leave the option to commit to main branch</li>
+<li>click on Commit changes</li>
+<li>you will then see both folders as part of your new repo</li>
+</ul>
+</li>
+<li>
+<p>Add metadata to the Jupyter notebook</p>
+<ul>
+<li>every Jupyter notebook has a metadata section where you can add your own metadata</li>
+<li>go to the <a href="https://jupyter.org/try-jupyter/lab/">JupyterLite demo page</a></li>
+<li>upload the test.ipynb file</li>
+<li>open the test.ipynb file</li>
+<li>in the menu go to view -&gt; property inspector</li>
+<li>in the advanced tools section on the right hand side you can now see the cell metadata and under the Notebook metadata</li>
+<li>the new metadata should be added at the end of the Notebook metadata</li>
+<li>add information about the title and authors by adding json code such as<blockquote>
+<p>"title": "My Title!",
+"authors": [
+  { "name": "Author1" },
+  { "name": "Author2" }
+]</p>
+</blockquote>
+</li>
+<li>if you are not familiar with json, take a look at <a href="https://stackoverflow.com/questions/66929384/add-notebook-author-and-title-in-jupyter-notebook-cells">this guide</a> on how to do it</li>
+<li>save the notebook</li>
+<li>right click on the notebook name and download the new version</li>
+<li>navigate to the src folder on GitHub</li>
+<li>choose add files in the upper right corner</li>
+<li>drag and drop the new version of test.ipynb</li>
+<li>commit the new change</li>
+</ul>
+</li>
+<li>
+<p>Create a CodeMeta file to describe the research software</p>
+<ul>
+<li>in a new browser tab go to <a href="https://codemeta.github.io/create/">Create a CodeMeta file</a></li>
+<li>follow the link to the <a href="https://codemeta.github.io/codemeta-generator/">CodeMeta Generator</a></li>
+<li>fill out the information <ul>
+<li>to help you fill out some of the information in this form take a look at the brief description of the example software below</li>
+<li>if some information is missing, take a look at the related paper, or simply invent it</li>
+<li>discuss the unique identifier, how would you get one and when you are able to add this information</li>
+</ul>
+</li>
+<li>generate the codemeta.json</li>
+<li>validate the codemeta.json</li>
+<li>go back to your GitHub repo and create a new file</li>
+<li>name the file codemeta.json</li>
+<li>copy/paste the content from the generated file to the file on GitHub</li>
+<li>choose commit changes in the upper right corner</li>
+<li>codemeta.json should now be part of your repo</li>
+</ul>
+</li>
+<li></li>
+</ol>
+<p>Describe the research software in the README file using best practices
+    - </p>
+<p>Adapt file headers with info
 Define Citation (citation.cff)
 Define License 
 Define Readme
@@ -651,12 +780,29 @@ Review template for possible automated workflow
 Measure the FAIRness of your effort
 Paper based + 
 Example tools that are in their development stage</p>
+<h3 id="brief-description-of-the-software">Brief description of the software</h3>
+<p>The Jupyter Notebook reads in measurements obtained using the hey benchmark and provides basic statistical information about the user response time under different conditions (type of application, type of deployment, type of infrastructure, number of requests per second, number of threads). The statistical information is saved in a csv format.</p>
+<p>Language used: Python
+Tested with Python v3.8.18 in Jupyter Notebook v6.5.4 using Anaconda 2.5.2 on Mac Sonoma 14.2.1.
+Known dependencies: </p>
+<ul>
+<li>Python 3</li>
+<li>Pandas</li>
+<li>matplotlib</li>
+<li>Seaborn</li>
+<li>pathlib</li>
+</ul>
+<p>This notebook has been used to generate the results for the following paper:
+Kjorveziroski, V., Filiposka, S. WebAssembly as an Enabler for Next Generation Serverless Computing. J Grid Computing 21, 34 (2023). https://doi.org/10.1007/s10723-023-09669-8</p>
+<p>The work is done as part of the OSCAR-2023 project, funded by FINKI-UKIM</p>
 <h2 id="summary">Summary</h2>
 <p>At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)</p>
 <h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
 <li>provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level</li>
 <li><a href="https://www.markdownguide.org/">Markdown guide</a>, free and open-source reference guide that explains how to use Markdown.</li>
+<li><a href="https://codemeta.github.io/create/">Create a CodeMeta file</a></li>
+<li><a href="https://codemeta.github.io/governance/">CodeMeta Governance</a></li>
 </ul>
 
 
