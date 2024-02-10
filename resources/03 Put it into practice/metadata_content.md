@@ -169,6 +169,10 @@ Note: the steps in this activity are designed so that you don't need to have Git
 10. If you still have time available you can now try and assess the FAIRness of your effort
     - for these purposes go to the FAIR assessment activity    
 
+11. Prepare for retrospective
+    - what are your main impressions of this activities in 2-3 sentences
+    - choose a group representatives that will share these impressions with the rest of the workshop participants
+
 
 ### Brief description of the software
 
