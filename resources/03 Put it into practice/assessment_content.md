@@ -41,7 +41,7 @@ FAIR software objects should be assessed for their level of FAIRness in order to
     - analyse each item of the following table by paying attention to the requirements, method, essential, important and useful aspects
     - note that the specification for each of the metrics is available in [D5.2 - Metrics for automated FAIR software assessment in a disciplinary context](https://zenodo.org/records/10047401), chapter 2 Metric Specification page 12
 
-| ** Identifier ** | ** Name ** |
+| **Identifier** | **Name** |
 |---|---|
 | **FRSM-01** | Does the software have a globally unique and persistent identifier? |
 | **FRSM-02** | Do the different components of the software have their own identifiers? |
