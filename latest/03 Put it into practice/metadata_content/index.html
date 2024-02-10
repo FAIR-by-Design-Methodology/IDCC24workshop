@@ -727,11 +727,11 @@
 <li>in the advanced tools section on the right hand side you can now see the cell metadata and under the Notebook metadata</li>
 <li>the new metadata should be added at the end of the Notebook metadata</li>
 <li>add information about the title and authors by adding json code such as<blockquote>
-<p>"title": "My Title!",
+<p><code>"title": "My Title!",
 "authors": [
-  { "name": "Author1" },
-  { "name": "Author2" }
-]</p>
+{ "name": "Author1" },
+{ "name": "Author2" }
+]</code></p>
 </blockquote>
 </li>
 <li>if you are not familiar with json, take a look at <a href="https://stackoverflow.com/questions/66929384/add-notebook-author-and-title-in-jupyter-notebook-cells">this guide</a> on how to do it</li>
@@ -763,23 +763,86 @@
 <li>codemeta.json should now be part of your repo</li>
 </ul>
 </li>
-<li></li>
+<li>
+<p>According to the RSMD guidelines, the root of the repo should contain a citations file so that the software can be cited properly</p>
+<ul>
+<li>to create a citation file in another browser tab, navigate to https://citation-file-format.github.io/ <ul>
+<li>this is a tool that helps you develop citation files in the cff file format</li>
+</ul>
+</li>
+<li>click on Create CFF file in the upper right corner</li>
+<li>click on the cffinit website blue button</li>
+<li>choose Create</li>
+<li>follow the workflow and define the content of citation.cff</li>
+<li>download the file</li>
+<li>drag and drop the citation.cff file in the root of your GitHub repo</li>
+<li>discuss the data duplication in codemeta.json and citation.cff</li>
+</ul>
+</li>
+<li>
+<p>Describe the research software in the README file using best practices</p>
+<ul>
+<li>in a new browser tab navigate to https://readme.so/editor</li>
+<li>create the content of the readme file using the sections templates provided<ul>
+<li>note that you are able to edit the content of one section at a time, but the preview on the right shows you the whole content of the readme file</li>
+</ul>
+</li>
+<li>download the completed readme</li>
+<li>drag and drop the readme.md file in the root of your GitHub repo</li>
+<li>once you commit the changes it will replace the old file</li>
+</ul>
+</li>
+<li>
+<p>How you would publish the software once you are all done?</p>
+<ul>
+<li>Zenodo provides a bridge with GitHub that simplifies the publication of your research software<ul>
+<li>for these purposes you first need to link your Zenodo account with your GitHub account</li>
+<li>go to https://zenodo.org/account/settings/linkedaccounts/ and add GitHub</li>
+</ul>
+</li>
+<li>go to https://zenodo.org/account/settings/github/ and analyse the steps needed for publishing to Zenodo </li>
+<li>you must have noticed that one of the steps is to create a release on GitHub<ul>
+<li>you can try and create a release on GitHub (but don't link the repo on Zenodo so as not to create false records)</li>
+<li>note that you should use semantic versioning for your releases</li>
+<li>as this is your first release you should use the tag v1.0.0</li>
+<li>provide release information and click on release</li>
+<li>discuss what are the steps that need to be taken once you have obtained the DOI from Zenodo (is it just the readme file that needs to be updated?)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>The last step is to create a record on Software Heritage to ensure your software is archived</p>
+<ul>
+<li>in a new browser tab go to https://www.softwareheritage.org/</li>
+<li>if this is your first time on this site then spend some time browsing around</li>
+<li>to create a new record choose: Save Research Software</li>
+<li>analyse the steps and check if anything is missing<ul>
+<li>if you have followed the steps above, then the AUTHORS file is still missing and needs to be added<ul>
+<li>to create an AUTHORS file, create a new file using a basic text editor</li>
+<li>copy/paste the content of the example file from <a href="https://opensource.google/documentation/reference/releasing/authors">Google Open Source</a></li>
+<li>make the necessary changes</li>
+<li>save the file as AUTHORS or AUTHORS.txt</li>
+<li>drag and drop the file to the root of your GitHub repo</li>
+<li>commit your changes</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>visit https://archive.softwareheritage.org/save/<ul>
+<li>check if you are able to find the origin URL of your GitHub repo</li>
+<li>do not submit so as not to create false records</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>If you still have time available you can now try and assess the FAIRness of your effort</p>
+<ul>
+<li>for these purposes go to the FAIR assessment activity    </li>
+</ul>
+</li>
 </ol>
-<p>Describe the research software in the README file using best practices
-    - </p>
-<p>Adapt file headers with info
-Define Citation (citation.cff)
-Define License 
-Define Readme
-Description
-Dependencies
-Test
-…
-Use SWH or Zenodo?
-Review template for possible automated workflow
-Measure the FAIRness of your effort
-Paper based + 
-Example tools that are in their development stage</p>
 <h3 id="brief-description-of-the-software">Brief description of the software</h3>
 <p>The Jupyter Notebook reads in measurements obtained using the hey benchmark and provides basic statistical information about the user response time under different conditions (type of application, type of deployment, type of infrastructure, number of requests per second, number of threads). The statistical information is saved in a csv format.</p>
 <p>Language used: Python
@@ -796,13 +859,15 @@ Known dependencies: </p>
 Kjorveziroski, V., Filiposka, S. WebAssembly as an Enabler for Next Generation Serverless Computing. J Grid Computing 21, 34 (2023). https://doi.org/10.1007/s10723-023-09669-8</p>
 <p>The work is done as part of the OSCAR-2023 project, funded by FINKI-UKIM</p>
 <h2 id="summary">Summary</h2>
-<p>At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)</p>
+<p>The steps outlined in this activity have aimed to guide you through the basic steps of the process of describing your research software with metadata. These are the essential steps that need to be done in order to improve the FAIRness of your software. The RSMD guidelines include additional information that has not been covered in this activity, but is also considered as very important when it comes to producing FAIR research software.</p>
 <h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
-<li>provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level</li>
-<li><a href="https://www.markdownguide.org/">Markdown guide</a>, free and open-source reference guide that explains how to use Markdown.</li>
+<li><a href="https://zenodo.org/records/8199104">D4.4 - Guidelines for recommended metadata standard for research software within EOSC</a></li>
 <li><a href="https://codemeta.github.io/create/">Create a CodeMeta file</a></li>
 <li><a href="https://codemeta.github.io/governance/">CodeMeta Governance</a></li>
+<li><a href="https://readme.so/">README.so</a></li>
+<li><a href="https://citation-file-format.github.io/">CITATION file format</a></li>
+<li><a href="https://www.softwareheritage.org/">Software Heritage</a></li>
 </ul>
 
 
