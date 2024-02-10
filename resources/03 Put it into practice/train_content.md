@@ -9,7 +9,7 @@ tags:
 
 # Introduction
 
-The aim of this activity is to show case some of the elements necessary to develop FAIR learning materials. The main focus of the activity is on the definition of the logical organisation of the learning materials and all of their elements, both, learning facing and trainer facing as well as the definition of the main metadata for the learning materials.
+The aim of this activity is to show case some of the elements necessary to develop FAIR learning materials. The main focus of the activity is on the definition of the logical organisation of the learning materials and all of their elements, both, learner facing and trainer facing as well as the definition of the main metadata for the learning materials.
 
 ## Learning Objectives
 
