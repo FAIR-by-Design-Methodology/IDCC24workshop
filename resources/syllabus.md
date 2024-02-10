@@ -89,11 +89,11 @@ All resource and materials can be found at https://github.com/FAIR-by-Design-Met
 
 ## Author(s)
 
-Sonja Filiposka, Dominique Green, Joy Davidson, Neil Chue Song, Morane Gruenpeter, Mario Antonioletti
+Sonja Filiposka, Anastas Mishev, Dominique Green, Angus Whyte, Joy Davidson, Neil Chue Song, Morane Gruenpeter, Mario Antonioletti
 
 # Trainer(s)
 
-Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Song[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
+Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Angus	Whyte[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-5198-0833), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Song[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
 
 ## Contact information
 
