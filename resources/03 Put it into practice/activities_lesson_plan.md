@@ -1,53 +1,49 @@
 ---
 title: "FAIR Learning Unit Lesson Plan Template"
-author: "Skills4EOSC T2.3"
+author: "Skills4EOSC & FAIR-IMPACT"
 tags: 
     - FAIR-by-Design Learning Materials
-    - FAIR Learning Objects
-    - FAIR Learning Unit Lesson Plan Template
+    - FAIR Software Objects
+    - FAIR assessment
 ---
 
-# Unit Lesson Plan Template
+# Unit Plan
 
-## Unit Name
+## Activities
 
-Aim/Goal of unit
+The main goal of the Putting it all into practice unit is to enable the workshop participants to try out some of the essential steps when it comes to the development of FAIR digital objects, be it learning materials or research software, as well as the basics of assessing the FAIRness of the digital object.
 
 ### Location
-- is it going to be online or physical
-- if physical any special room type should be noted (e.g. classroom, IT lab, ...)
+- cabaret style room, with tables where participants are groups by 3s or 4s
 
-### Total duration
+### Total duration - 1 hr
 
 ### Number of attendees
-- important to know the max group size
-- can be a number range (e.g. 20-30)
+- up to 20 participants
 
 ### Learning objectives
-- list the learning objectives that are to be achieved
-- learning objectives should be devised using the verbs from the Bloom's Taxonomy
-- learning objectives should be SMART
+- describe research software using metdata
+- publish research software on Zenodo
+- archive research software on Software Heritage
+- analyse the FAIR-by-Design templates for learning materials
+- use the RDA metadata schema for learning resources
+- discover the trainer and learner content that should be defined for each learning unit
+- assess level of FAIRness of learning materials or software objects
 
 ### Plan
-| Duration | Topic                  | Key points/Teaching Method/Questions                                   | Activities               | Resources                  |
-|----------|------------------------|------------------------------------------------------------------------|--------------------------|----------------------------|
-| X mins   | Welcome / Introduction | - housekeeping  - introduce trainer and trainees - learning objectives | ice breaker              | e.g. name tags, flip chart |
-| X mins   | The hook               | - focus attention - provide framework                                  | brainstorm expectations  | e.g. post-it notes         |
-| X mins   | Training               | information + examples                                                 | check for understanding  | e.g. pptx + handouts       |
-| X mins   | Guided practice        | trainer acts as facilitator                                            | exercise or activity     | e.g. posters and markers   |
-| X mins   | Summary                | key takeaways                                                          | reinforcement assignment | e.g. cards                 |
+Participants are called out to group into 3s or 4s based on their answers from the pre-workshop survey:
 
-Note: If the training is relying heavily on presentations then another option for the plan layout is to provided in a slide by slide using slide thumbnails in the topic column. In this case each row in the table should refer to a separate slide in the presentation.
+1. interested in developing learning materials
+2. interested in developing FAIR software with low level of GitHub knowledge
+3. interested in FAIR software with fair knowledge of GitHub
 
+Group 1 will do the FAIR learning materials activity with the guidance of Skills4EOSC physical and online trainers.
 
-### Assessment
-- what, how, when
-- is it going to be formative (throughout) or summative (in the end)
-- results how and when
+Group 2 will do the FAIR research software activity with the guidance of Skills4EOSC & FAIR-IMPACT physical and online trainers.
 
-### Certificate or Badge
-- micro-credentials for the unit
-- if certificate or badge is issued then explain how it can be gained
+Group 3 will do the FAIR assessment activity with the guidance of FAIR-IMPACT physical and online trainers.
+
+In the last 5 minutes the participants are reminded to jump to the last step of the activity to prepare for the retrospective and conclusion of the workshop.
 
 ### Reflection
 - how did it go
