@@ -88,11 +88,13 @@ Note: the steps in this activity are designed so that you don't need to have Git
     - in the advanced tools section on the right hand side you can now see the cell metadata and under the Notebook metadata
     - the new metadata should be added at the end of the Notebook metadata
     - add information about the title and authors by adding json code such as
-> "title": "My Title!",
+> ```
+"title": "My Title!",
 "authors": [
-  { "name": "Author1" },
-  { "name": "Author2" }
+    { "name": "Author1" },
+    { "name": "Author2" }
 ]
+```
     - if you are not familiar with json, take a look at [this guide](https://stackoverflow.com/questions/66929384/add-notebook-author-and-title-in-jupyter-notebook-cells) on how to do it
     - save the notebook
     - right click on the notebook name and download the new version
@@ -116,27 +118,55 @@ Note: the steps in this activity are designed so that you don't need to have Git
     - choose commit changes in the upper right corner
     - codemeta.json should now be part of your repo
 
-5. 
+6. According to the RSMD guidelines, the root of the repo should contain a citations file so that the software can be cited properly
+    - to create a citation file in another browser tab, navigate to https://citation-file-format.github.io/ 
+        - this is a tool that helps you develop citation files in the cff file format
+    - click on Create CFF file in the upper right corner
+    - click on the cffinit website blue button
+    - choose Create
+    - follow the workflow and define the content of citation.cff
+    - download the file
+    - drag and drop the citation.cff file in the root of your GitHub repo
+    - discuss the data duplication in codemeta.json and citation.cff
 
+7. Describe the research software in the README file using best practices
+    - in a new browser tab navigate to https://readme.so/editor
+    - create the content of the readme file using the sections templates provided
+        - note that you are able to edit the content of one section at a time, but the preview on the right shows you the whole content of the readme file
+    - download the completed readme
+    - drag and drop the readme.md file in the root of your GitHub repo
+    - once you commit the changes it will replace the old file
 
+8. How you would publish the software once you are all done?
+    - Zenodo provides a bridge with GitHub that simplifies the publication of your research software
+        - for these purposes you first need to link your Zenodo account with your GitHub account
+        - go to https://zenodo.org/account/settings/linkedaccounts/ and add GitHub
+    - go to https://zenodo.org/account/settings/github/ and analyse the steps needed for publishing to Zenodo 
+    - you must have noticed that one of the steps is to create a release on GitHub
+        - you can try and create a release on GitHub (but don't link the repo on Zenodo so as not to create false records)
+        - note that you should use semantic versioning for your releases
+        - as this is your first release you should use the tag v1.0.0
+        - provide release information and click on release
+        - discuss what are the steps that need to be taken once you have obtained the DOI from Zenodo (is it just the readme file that needs to be updated?)
 
+9. The last step is to create a record on Software Heritage to ensure your software is archived
+    - in a new browser tab go to https://www.softwareheritage.org/
+    - if this is your first time on this site then spend some time browsing around
+    - to create a new record choose: Save Research Software
+    - analyse the steps and check if anything is missing
+        - if you have followed the steps above, then the AUTHORS file is still missing and needs to be added
+            - to create an AUTHORS file, create a new file using a basic text editor
+            - copy/paste the content of the example file from [Google Open Source](https://opensource.google/documentation/reference/releasing/authors)
+            - make the necessary changes
+            - save the file as AUTHORS or AUTHORS.txt
+            - drag and drop the file to the root of your GitHub repo
+            - commit your changes
+    - visit https://archive.softwareheritage.org/save/
+        - check if you are able to find the origin URL of your GitHub repo
+        - do not submit so as not to create false records
 
-Describe the research software in the README file using best practices
-    - 
-
-Adapt file headers with info
-Define Citation (citation.cff)
-Define License 
-Define Readme
-Description
-Dependencies
-Test
-…
-Use SWH or Zenodo?
-Review template for possible automated workflow
-Measure the FAIRness of your effort
-Paper based + 
-Example tools that are in their development stage
+10. If you still have time available you can now try and assess the FAIRness of your effort
+    - for these purposes go to the FAIR assessment activity    
 
 
 ### Brief description of the software
@@ -160,12 +190,14 @@ The work is done as part of the OSCAR-2023 project, funded by FINKI-UKIM
 
 ## Summary
 
-At the end provide a short summary of the main points of the learning unit (these are the key takeaways that help reflect on the learning outcomes)
+The steps outlined in this activity have aimed to guide you through the basic steps of the process of describing your research software with metadata. These are the essential steps that need to be done in order to improve the FAIRness of your software. The RSMD guidelines include additional information that has not been covered in this activity, but is also considered as very important when it comes to producing FAIR research software.
 
 ## Suggested Reading
 
-- provide a list of references for further reading that should help clarify the content of the learning unit and elevate the knowledge level
-- [Markdown guide](https://www.markdownguide.org/), free and open-source reference guide that explains how to use Markdown.
+- [D4.4 - Guidelines for recommended metadata standard for research software within EOSC](https://zenodo.org/records/8199104)
 - [Create a CodeMeta file](https://codemeta.github.io/create/)
 - [CodeMeta Governance](https://codemeta.github.io/governance/)
+- [README.so](https://readme.so/)
+- [CITATION file format](https://citation-file-format.github.io/)
+- [Software Heritage](https://www.softwareheritage.org/)
 
