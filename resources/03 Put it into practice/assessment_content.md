@@ -34,10 +34,12 @@ FAIR software objects should be assessed for their level of FAIRness in order to
 
 ## FAIR assessment of software objects
 
-1. If you already have your own software repositories where you have developed and kept your research software you can use it as the object for which you will assess its current level of FAIRness. If not, then choose an example software repository that will be assessed. 
-    - in case you are going to use your own, feel free to go quickly through the FAIR research software activity and add any missing metadata to your software
+1. If you already have your own software repositories where you have developed and kept your research software you can use it as the object for which you will assess its current level of FAIRness. If not, then choose one of the following example software repositories to assess:
+   - Example repository 1
+   - Example repository 2 
+- in case you are going to use your own, feel free to go quickly through the FAIR research software activity and add any missing metadata to your software
 
-2. Use the developed FAIR software checklist to assess the FAIRness of the chosen software object
+3. Use the developed FAIR software checklist to assess the FAIRness of the chosen software object
     - analyse each item of the following table by paying attention to the requirements, method, essential, important and useful aspects
     - note that the specification for each of the metrics is available in [D5.2 - Metrics for automated FAIR software assessment in a disciplinary context](https://zenodo.org/records/10047401), chapter 2 Metric Specification page 12
 
