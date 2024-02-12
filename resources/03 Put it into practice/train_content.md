@@ -50,10 +50,12 @@ Follow the defined steps to go through the activity and learn how to implement F
         - LICENSE
         - CODE_OF_CONDUCT
         - CITATION
-        - syllabus
-        - template_facilitator_guide
-        - training_feedback_template
-    - analyse the structure of the Learning Unit folder
+        - in the resources folder: 
+            - syllabus
+            - template_facilitator_guide
+            - in the Feedback folder 
+                - training_feedback_template
+    - analyse the structure of the Learning Unit folder (inside the resources folder)
         - view the content of the learning content in template_content file
         - view the content of the information for trainers, (together with the facilitator guide and feedback they are known as the instructor kit):
             - template_unit_lesson_plan
