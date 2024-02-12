@@ -43,7 +43,7 @@ Follow the defined steps to go through the activity and learn how to implement F
 
 1. Review the structure of the templates repo
     - the templates repository on GitHub can be found at [https://github.com/FAIR-by-Design-Methodology/templates](https://github.com/FAIR-by-Design-Methodology/templates)
-    - go to the link and analyse the file structure
+    - go to the link and get familiar with the file structure
         - you can navigate to any file in the tree structure and preview the file content by clicking on the file
     - view the content of the following files:
         - README
@@ -117,7 +117,7 @@ Follow the defined steps to go through the activity and learn how to implement F
 4. Apply the QA checklist
     - within Skills4EOSC we have also developed a QA checklist that measures the level of FAIRness of the developed learning materials
     - in a new browser tab navigate to [FAIR-by-Design Methodology QA checklist](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20%E2%80%93%20Verify/19-Final%20QA%20check/19-finalQA/#fair-by-design-methodology-qa-checklist)
-    - analyse the table and pay attention to the essential elements
+    - get familiar with the table and pay attention to the essential elements
         - if the learning materials lack an essential element that means that they are not complying with the minimum FAIR requirements
     - check the level of FAIRness of a chosen set of learning materials
         - does the material pass the minimum requirements?
