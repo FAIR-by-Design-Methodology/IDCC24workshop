@@ -1,5 +1,5 @@
 ---
-title: "FAIR research software"
+title: "2 - FAIR research software"
 author: "Skills4EOSC & FAIR-IMPACT"
 tags: 
     - FAIR-by-Design

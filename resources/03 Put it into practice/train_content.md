@@ -1,5 +1,5 @@
 ---
-title: "FAIR learning materials"
+title: "1 - FAIR learning materials"
 author: "Skills4EOSC & FAIR-IMPACT"
 tags: 
     - FAIR-by-Design Learning Materials
