@@ -15,7 +15,7 @@
     
     
       
-        <title>3 - FAIR assessment - FAIR-by-Design Workshop</title>
+        <title>1 - FAIR learning materials - FAIR-by-Design Workshop</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#fair-assessment" class="md-skip">
+        <a href="#introduction" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3 - FAIR assessment
+              1 - FAIR learning materials
             
           </span>
         </div>
@@ -369,12 +369,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          3 - FAIR assessment
+          1 - FAIR learning materials
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        3 - FAIR assessment
+        1 - FAIR learning materials
       </a>
       
         
@@ -427,27 +427,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#fair-assessment-of-software-objects" class="md-nav__link">
-    FAIR assessment of software objects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    Summary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suggested-reading" class="md-nav__link">
-    Suggested Reading
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -463,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../metadata_content/" class="md-nav__link">
+      <a href="../2-metadata_content/" class="md-nav__link">
         2 - FAIR research software
       </a>
     </li>
@@ -477,8 +456,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../train_content/" class="md-nav__link">
-        1 - FAIR learning materials
+      <a href="../3-assessment_content/" class="md-nav__link">
+        3 - FAIR assessment
       </a>
     </li>
   
@@ -552,27 +531,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#fair-assessment-of-software-objects" class="md-nav__link">
-    FAIR assessment of software objects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    Summary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suggested-reading" class="md-nav__link">
-    Suggested Reading
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -592,12 +550,12 @@
     
       
       
-        <span class="md-tag">FAIR-by-Design</span>
+        <span class="md-tag">FAIR-by-Design Learning Materials</span>
       
     
       
       
-        <span class="md-tag">FAIR Software Objects</span>
+        <span class="md-tag">FAIR Learning Objects</span>
       
     
       
@@ -610,15 +568,18 @@
 
 
 
-<h1 id="fair-assessment">FAIR assessment</h1>
-<p>FAIR software objects should be assessed for their level of FAIRness in order to ensure that all FAIR aspects have been successfully implemented by following the RSMD guidelines. To perform FAIR assessment one can use a FAIR software checklist and manually go through it point by point. Another option, that FAIR-IMPACT is currently working on is to use an automated tool to help in this process. </p>
+<h1 id="introduction">Introduction</h1>
+<p>The aim of this activity is to show case some of the elements necessary to develop FAIR learning materials. The main focus of the activity is on the definition of the logical organisation of the learning materials and all of their elements, both, learner facing and trainer facing as well as the definition of the main metadata for the learning materials.</p>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>assess the FAIRness of software objects</li>
+<li>identify the FAIR-by-Design templates for learning materials</li>
+<li>use the RDA metadata schema for learning resources</li>
+<li>discover the trainer and learner content that should be defined for each learning unit</li>
+<li>assess level of FAIRness of learning materials</li>
 </ul>
 <h2 id="target-audience">Target Audience</h2>
 <ul>
-<li>research software developers, librarians, curators</li>
+<li>instructional designers, trainers</li>
 </ul>
 <h2 id="duration">Duration</h2>
 <ul>
@@ -626,115 +587,140 @@
 </ul>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li>familiarity with FAIR software metrics</li>
+<li>familiarity with the FAIR-by-Design methodology stages</li>
+<li>nice to have: familiarity with MD and CFF formats</li>
 </ul>
 <h2 id="learning-tools">Learning Tools</h2>
 <ul>
-<li>browser, online tools</li>
-<li>FAIR assessment checklist</li>
+<li>browser, online tools (HedgeDoc, CFFINIT)</li>
 </ul>
-<h2 id="fair-assessment-of-software-objects">FAIR assessment of software objects</h2>
-<ol>
-<li>If you already have your own software repositories where you have developed and kept your research software you can use it as the object for which you will assess its current level of FAIRness. If not, then choose one of the following example software repositories to assess:</li>
-<li>Example repository 1</li>
-<li>Example repository 2 </li>
-<li>
-<p>in case you are going to use your own, feel free to go quickly through the FAIR research software activity and add any missing metadata to your software</p>
-</li>
-<li>
-<p>Use the developed FAIR software checklist to assess the FAIRness of the chosen software object</p>
-<ul>
-<li>analyse each item of the following table by paying attention to the requirements, method, essential, important and useful aspects</li>
-<li>note that the specification for each of the metrics is available in <a href="https://zenodo.org/records/10047401">D5.2 - Metrics for automated FAIR software assessment in a disciplinary context</a>, chapter 2 Metric Specification page 12</li>
-</ul>
-</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th><strong>Identifier</strong></th>
-<th><strong>Name</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>FRSM-01</strong></td>
-<td>Does the software have a globally unique and persistent identifier?</td>
-</tr>
-<tr>
-<td><strong>FRSM-02</strong></td>
-<td>Do the different components of the software have their own identifiers?</td>
-</tr>
-<tr>
-<td><strong>FRSM-03</strong></td>
-<td>Does each version of the software have a unique identifier?</td>
-</tr>
-<tr>
-<td><strong>FRSM-04</strong></td>
-<td>Does the software include descriptive metadata which helps define its purpose?</td>
-</tr>
-<tr>
-<td><strong>FRSM-05</strong></td>
-<td>Does the software include development metadata which helps define its status?</td>
-</tr>
-<tr>
-<td><strong>FRSM-06</strong></td>
-<td>Does the software include metadata about the contributors and their roles?</td>
-</tr>
-<tr>
-<td><strong>FRSM-07</strong></td>
-<td>Does the software metadata include the identifier for the software?</td>
-</tr>
-<tr>
-<td><strong>FRSM-08</strong></td>
-<td>Does the software have a publicly available, openly accessible and persistent metadata record?</td>
-</tr>
-<tr>
-<td><strong>FRSM-09</strong></td>
-<td>Is the software developed in a code repository / forge that uses standard communications protocols?</td>
-</tr>
-<tr>
-<td><strong>FRSM-10</strong></td>
-<td>Are the formats used by the data consumed or produced by the software open and a reference provided to the format?</td>
-</tr>
-<tr>
-<td><strong>FRSM-11</strong></td>
-<td>Does the software use open APIs that support machine-readable interface definition?</td>
-</tr>
-<tr>
-<td><strong>FRSM-12</strong></td>
-<td>Does the software provide references to other objects that support its use?</td>
-</tr>
-<tr>
-<td><strong>FRSM-13</strong></td>
-<td>Does the software describe what is required to use it?</td>
-</tr>
-<tr>
-<td><strong>FRSM-14</strong></td>
-<td>Does the software come with test cases to demonstrate it is working?</td>
-</tr>
-<tr>
-<td><strong>FRSM-15</strong></td>
-<td>Does the software source code include licensing information for the software and any bundled external software?</td>
-</tr>
-<tr>
-<td><strong>FRSM-16</strong></td>
-<td>Does the software metadata record include licensing information?</td>
-</tr>
-<tr>
-<td><strong>FRSM-17</strong></td>
-<td>Does the software include provenance information that describe the development of the software?</td>
-</tr>
-</tbody>
-</table>
+<h1 id="discover-the-elements-of-fair-by-design-learning-materials">Discover the elements of FAIR-by-Design learning materials</h1>
+<p>Although the FAIR-by-Design methodology in general does not define concrete formats, tools or methods for its implementation, for the purposes of development of learning materials within the Skills4EOSC project, we have developed a template repository on GitHub that can be used as a blueprint for the development of FAIR learning materials.  </p>
+<p>Follow the defined steps to go through the activity and learn how to implement FAIR learning materials in practice using the templates repo as a blueprint.</p>
 <ol>
 <li>
-<p>Use an automated tool to assess the software FAIRness</p>
+<p>Review the structure of the templates repo</p>
+<ul>
+<li>the templates repository on GitHub can be found at <a href="https://github.com/FAIR-by-Design-Methodology/templates">https://github.com/FAIR-by-Design-Methodology/templates</a></li>
+<li>go to the link and get familiar with the file structure<ul>
+<li>you can navigate to any file in the tree structure and preview the file content by clicking on the file</li>
+</ul>
+</li>
+<li>view the content of the following files:<ul>
+<li>README</li>
+<li>LICENSE</li>
+<li>CODE_OF_CONDUCT</li>
+<li>CITATION</li>
+<li>in the resources folder: <ul>
+<li>syllabus</li>
+<li>template_facilitator_guide</li>
+<li>in the Feedback folder <ul>
+<li>training_feedback_template</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>get familiarised with the structure of the Learning Unit folder (inside the resources folder) to understand what information is needed for FAIR learning materials<ul>
+<li>view the content of the learning content in template_content file</li>
+<li>view the content of the information for trainers, (together with the facilitator guide and feedback they are known as the instructor kit):<ul>
+<li>template_unit_lesson_plan</li>
+<li>activity_details_template</li>
+<li>assessment_template</li>
+<li>quiz_gift_template</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Note: if you want to use this template repository as the starting point for your FAIR learning materials development you can follow the steps described in the Train the Trainers GitBook starting from <a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/#activity-first-steps-with-git">First Steps with Git</a></li>
+</ul>
 </li>
 <li>
-<p>Compare the results from both approaches</p>
+<p>Get familiar with the content of an example Learning Unit</p>
 <ul>
-<li>discuss any problems or doubts during the process</li>
+<li>navigate to <a href="https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT">https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT</a></li>
+<li>this repository holds all learning materials related to the Train the Trainers training for the FAIR-by-Design Methodology</li>
+<li>the learners view of this repo content in the form of a GitBook is available at <a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/">https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/</a></li>
+<li>review the syllabus of the training which is the landing page of the GitBook</li>
+<li>on GitHub, navigate into one example learning unit by your choice (inside the resources folder)</li>
+<li>make a comparison of what the learner can see, and what is the complete content of the learning unit<ul>
+<li>learning content</li>
+<li>lesson plan</li>
+<li>activities description</li>
+<li>assessment</li>
+</ul>
+</li>
+<li>discuss the need for this additional files and why they should be available to trainers and other designers in editable format</li>
+</ul>
+</li>
+<li>
+<p>Create your own syllabus</p>
+<ul>
+<li>in the templates GitHub repository from step 1 navigate to the <a href="https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md">syllabus file</a></li>
+<li>change from preview to code </li>
+<li>copy the whole content of the file</li>
+<li>in another browser tab, navigate to <a href="https://hedgedoc.org/">https://hedgedoc.org/</a></li>
+<li>choose Try the demo, then Continue to demo instance</li>
+<li>in the upper right corner choose + New guest note</li>
+<li>paste the copied content in the editor window<ul>
+<li>note that the starting portion of the file between the two --- lines is the file header, this is where the machine-readable metadata is located</li>
+<li>everything bellow the second --- line is the actual content of the file that is rendered and visible on the right hand side</li>
+</ul>
+</li>
+<li>provide human-readable metadata for your example training starting from Title of training (row 31 in the editor)<ul>
+<li>use the <a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/#defining-learning-objectives">Bloom's taxonomy</a> to define tangible learning objectives</li>
+</ul>
+</li>
+<li>provide machine-readable metadata in the file header<ul>
+<li>note that the content is the same, so you should be copy pasting information from below. The field names used in this part correspond to the names provided in the RDA minimal metadata schema</li>
+</ul>
+</li>
+<li>do you feel that the syllabus content is complete? taking into account the rest of the information that will be provided in each learning unit, is something missing in the syllabus?</li>
+<li>note: you can download and save your effort by using the Menu in the upper right corner</li>
+</ul>
+</li>
+<li>
+<p>Create your own citation file</p>
+<ul>
+<li>unlike code_of_conduct where the only information required is an email address, or license where the file content is provided by CC, the citation file is a specific file wherein you need to provide the correct information so that it can be correctly processed</li>
+<li>in the templates GitHub repository from step 1 navigate to the <a href="https://github.com/FAIR-by-Design-Methodology/templates/blob/main/CITATION.cff">citation file</a></li>
+<li>copy the whole content of the file</li>
+<li>in another browser tab, navigate to <a href="https://citation-file-format.github.io/">https://citation-file-format.github.io/</a> <ul>
+<li>this is a tool that helps you develop citation files in the cff file format</li>
+</ul>
+</li>
+<li>click on Create CFF file in the upper right corner</li>
+<li>click on the cffinit website blue button</li>
+<li>choose Update</li>
+<li>paste the content of the copied citation file from the templates repo</li>
+<li>click parse<ul>
+<li>there are two warnings as doi and license are not defined as basic fields, but the bottom message should say parsed CFF successfully</li>
+</ul>
+</li>
+<li>click start editing</li>
+<li>note that this tool makes you choose between type of work software or dataset. As the learning materials are neither we recommend that the type field is not used in the file.</li>
+<li>follow the workflow and define the content of citation.cff</li>
+<li>ensure the file is valid</li>
+<li>you can download the file for future reference</li>
+<li>note that the citation file format provided in the templates repo is such that it is compatible with Zenodo</li>
+<li>discuss if there is an automated way to avoid the need to enter duplicate information twice (compare citation and syllabus information)</li>
+</ul>
+</li>
+<li>
+<p>Apply the QA checklist</p>
+<ul>
+<li>within Skills4EOSC we have also developed a QA checklist that measures the level of FAIRness of the developed learning materials</li>
+<li>in a new browser tab navigate to <a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20%E2%80%93%20Verify/19-Final%20QA%20check/19-finalQA/#fair-by-design-methodology-qa-checklist">FAIR-by-Design Methodology QA checklist</a></li>
+<li>get familiar with the table and pay attention to the essential elements<ul>
+<li>if the learning materials lack an essential element that means that they are not complying with the minimum FAIR requirements</li>
+</ul>
+</li>
+<li>check the level of FAIRness of a chosen set of learning materials<ul>
+<li>does the material pass the minimum requirements?</li>
+<li>if yes what is the total score obtained (X out of Y) if every question in the table weighs 1 point (notice that in some rows there are multiple questions) </li>
+</ul>
+</li>
 </ul>
 </li>
 <li>
@@ -746,10 +732,13 @@
 </li>
 </ol>
 <h2 id="summary">Summary</h2>
-<p>By performing FAIR assessment of your research software you are able to pinpoint the problems and find guidelines that will help you overcome them making your solution more easily findable, accessible, interoperable and reusable.</p>
+<p>If you enjoyed the activity and would like to learn more about how to develop FAIR learning materials using the FAIR-by-Design methodology take a look at the training GitBook or simply enroll in the training course on the Skills4EOSC platform. The links are provided in the suggested reading list.</p>
 <h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
-<li><a href="https://zenodo.org/records/10047401">D5.2 - Metrics for automated FAIR software assessment in a disciplinary context</a></li>
+<li><a href="https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT">FAIR-by-Design Learning Materials Methodology Training of Trainers on GitHub</a></li>
+<li><a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/">FAIR-by-Design Learning Materials Methodology Training of Trainers GitBook</a></li>
+<li><a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design Learning Materials Methodology Templates Repository</a></li>
+<li><a href="https://learning.skills4eosc.eu/course/view.php?id=19">FAIR-by-Design Learning Materials Methodology Training of Trainers on Skills4EOSC Learning Platform</a></li>
 </ul>
 
 
@@ -789,7 +778,7 @@
     
     
     
-    <a href="../metadata_content/" class="md-footer__link md-footer__link--next"
+    <a href="../2-metadata_content/" class="md-footer__link md-footer__link--next"
       aria-label="Next: 2 - FAIR research software" rel="next">
       <div class="md-footer__title">
         <span class="md-footer__direction">
