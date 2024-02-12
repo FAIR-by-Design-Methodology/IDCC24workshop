@@ -55,7 +55,7 @@ Follow the defined steps to go through the activity and learn how to implement F
             - template_facilitator_guide
             - in the Feedback folder 
                 - training_feedback_template
-    - analyse the structure of the Learning Unit folder (inside the resources folder)
+    - get familiarised with the structure of the Learning Unit folder (inside the resources folder) to understand what information is needed for FAIR learning materials
         - view the content of the learning content in template_content file
         - view the content of the information for trainers, (together with the facilitator guide and feedback they are known as the instructor kit):
             - template_unit_lesson_plan
@@ -64,7 +64,7 @@ Follow the defined steps to go through the activity and learn how to implement F
             - quiz_gift_template
     - Note: if you want to use this template repository as the starting point for your FAIR learning materials development you can follow the steps described in the Train the Trainers GitBook starting from [First Steps with Git](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/#activity-first-steps-with-git)
 
-2. Analyse the content of an example Learning Unit
+2. Get familiar with the content of an example Learning Unit
     - navigate to [https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT)
     - this repository holds all learning materials related to the Train the Trainers training for the FAIR-by-Design Methodology
     - the learners view of this repo content in the form of a GitBook is available at [https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
