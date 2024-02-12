@@ -42,7 +42,7 @@ expertiseLevel: "Beginner"
 Surgeons Quarter
 10 Hill Place Edinburgh EH8 9DS United Kingdom
 
-## Training Description
+## Description
 
 The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects.
 
@@ -58,7 +58,7 @@ The main goal of the workshop is to introduce participants to the projects’ re
 
 ## Duration: 3.5 hrs
 
-## Training objectives
+## Workshop objectives
 
 - describe research software using metadata 
 - describe training materials using metadata
@@ -84,8 +84,9 @@ FAIR-by-design, FAIR software, FAIRness, metadata, methodology
 
 ## Resources and Materials
 
-Official event page: https://www.eventbrite.co.uk/e/idcc24-w6-fair-by-design-introducing-skills4eosc-and-fair-impact-tickets-792998538977
-All resource and materials can be found at https://github.com/FAIR-by-Design-Methodology/IDCC24workshop
+Official event page: [https://www.eventbrite.co.uk/e/idcc24-w6-fair-by-design-introducing-skills4eosc-and-fair-impact-tickets-792998538977](https://www.eventbrite.co.uk/e/idcc24-w6-fair-by-design-introducing-skills4eosc-and-fair-impact-tickets-792998538977)
+
+All resource and materials can be found at [https://github.com/FAIR-by-Design-Methodology/IDCC24workshop](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop)
 
 ## Author(s)
 
@@ -97,7 +98,7 @@ Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org
 
 ## Contact information
 
-sonja.filiposka@finki.ukim.mk
+[sonja.filiposka@finki.ukim.mk](mailto:sonja.filiposka@finki.ukim.mk)
 
 ## License
 
