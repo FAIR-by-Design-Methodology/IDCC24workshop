@@ -13,7 +13,7 @@ The aim of this activity is to show case some of the elements necessary to devel
 
 ## Learning Objectives
 
-- analyse the FAIR-by-Design templates for learning materials
+- identify the FAIR-by-Design templates for learning materials
 - use the RDA metadata schema for learning resources
 - discover the trainer and learner content that should be defined for each learning unit
 - assess level of FAIRness of learning materials
