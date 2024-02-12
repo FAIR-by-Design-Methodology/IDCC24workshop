@@ -120,6 +120,7 @@ Follow the defined steps to go through the activity and learn how to implement F
     - get familiar with the table and pay attention to the essential elements
         - if the learning materials lack an essential element that means that they are not complying with the minimum FAIR requirements
     - check the level of FAIRness of a chosen set of learning materials
+        - you can use the materials for this workshop as an example, they are available at [https://github.com/FAIR-by-Design-Methodology/IDCC24workshop](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop) and are also published on Zenodo
         - does the material pass the minimum requirements?
         - if yes what is the total score obtained (X out of Y) if every question in the table weighs 1 point (notice that in some rows there are multiple questions) 
 
