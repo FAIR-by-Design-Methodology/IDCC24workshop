@@ -69,7 +69,7 @@ Follow the defined steps to go through the activity and learn how to implement F
     - this repository holds all learning materials related to the Train the Trainers training for the FAIR-by-Design Methodology
     - the learners view of this repo content in the form of a GitBook is available at [https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
     - review the syllabus of the training which is the landing page of the GitBook
-    - on GitHub, navigate into one example learning unit by your choice
+    - on GitHub, navigate into one example learning unit by your choice (inside the resources folder)
     - make a comparison of what the learner can see, and what is the complete content of the learning unit
         - learning content
         - lesson plan
