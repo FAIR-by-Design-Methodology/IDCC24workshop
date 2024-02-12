@@ -5,13 +5,15 @@ author:
     - Sonja Filiposka 
     - Dominique Green
     - Joy Davidson
-    - Neil Chue Song
+    - Neil Chue Hong
     - Morane Gruenpeter
     - Mario Antonioletti
 tags: 
     - FAIR-by-Design
     - FAIR software
     - metadata
+    - metrics
+    - FAIR4RS
 
 abstract: "The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects."
 primaryLanguage: "EN"
@@ -90,11 +92,11 @@ All resource and materials can be found at [https://github.com/FAIR-by-Design-Me
 
 ## Author(s)
 
-Sonja Filiposka, Anastas Mishev, Dominique Green, Angus Whyte, Joy Davidson, Neil Chue Song, Morane Gruenpeter, Mario Antonioletti
+Sonja Filiposka, Anastas Mishev, Dominique Green, Angus Whyte, Joy Davidson, Neil Chue Hong, Morane Gruenpeter, Mario Antonioletti
 
 # Trainer(s)
 
-Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Angus	Whyte[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-5198-0833), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Song[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
+Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Angus	Whyte[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-5198-0833), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Hong[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
 
 ## Contact information
 
