@@ -51,7 +51,7 @@ For the purposes of practicing the implementation of the RSMD guidelines we are 
 
 Note: the steps in this activity are designed so that you don't need to have GitDesktop or any similar solution installed on your laptop to complete them. If you are familiar with using GitDesktop, you should make all changes to the repo using push and commit via GitDesktop
 
-0. The first step of the process is to create a new example repository in GitHub. For these purposes you will need a GitHub account. If you don't already have a GitHub account please create one on https://github.com/ by following the steps outlined in the [official GitHub guide](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+0. The first step of the process is to create a new example repository in GitHub. For these purposes you will need a GitHub account. If you don't already have a GitHub account please create one on [GitHub](https://github.com/) by following the steps outlined in the [official GitHub guide](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
 
 1. Once you login to GitHub, you can create a new test repository by clicking on the New green button in the upper left corner.
 
@@ -119,7 +119,7 @@ Note: the steps in this activity are designed so that you don't need to have Git
     - codemeta.json should now be part of your repo
 
 6. According to the RSMD guidelines, the root of the repo should contain a citations file so that the software can be cited properly
-    - to create a citation file in another browser tab, navigate to https://citation-file-format.github.io/ 
+    - to create a citation file in another browser tab, navigate to [https://citation-file-format.github.io/](https://citation-file-format.github.io/)
         - this is a tool that helps you develop citation files in the cff file format
     - click on Create CFF file in the upper right corner
     - click on the cffinit website blue button
@@ -130,7 +130,7 @@ Note: the steps in this activity are designed so that you don't need to have Git
     - discuss the data duplication in codemeta.json and citation.cff
 
 7. Describe the research software in the README file using best practices
-    - in a new browser tab navigate to https://readme.so/editor
+    - in a new browser tab navigate to [https://readme.so/editor](https://readme.so/editor)
     - create the content of the readme file using the sections templates provided
         - note that you are able to edit the content of one section at a time, but the preview on the right shows you the whole content of the readme file
     - download the completed readme
@@ -140,8 +140,8 @@ Note: the steps in this activity are designed so that you don't need to have Git
 8. How you would publish the software once you are all done?
     - Zenodo provides a bridge with GitHub that simplifies the publication of your research software
         - for these purposes you first need to link your Zenodo account with your GitHub account
-        - go to https://zenodo.org/account/settings/linkedaccounts/ and add GitHub
-    - go to https://zenodo.org/account/settings/github/ and analyse the steps needed for publishing to Zenodo 
+        - go to [https://zenodo.org/account/settings/linkedaccounts/](https://zenodo.org/account/settings/linkedaccounts/) and add GitHub
+    - go to [https://zenodo.org/account/settings/github/](https://zenodo.org/account/settings/github/) and analyse the steps needed for publishing to Zenodo 
     - you must have noticed that one of the steps is to create a release on GitHub
         - you can try and create a release on GitHub (but don't link the repo on Zenodo so as not to create false records)
         - note that you should use semantic versioning for your releases
@@ -150,7 +150,7 @@ Note: the steps in this activity are designed so that you don't need to have Git
         - discuss what are the steps that need to be taken once you have obtained the DOI from Zenodo (is it just the readme file that needs to be updated?)
 
 9. The last step is to create a record on Software Heritage to ensure your software is archived
-    - in a new browser tab go to https://www.softwareheritage.org/
+    - in a new browser tab go to [https://www.softwareheritage.org/](https://www.softwareheritage.org/)
     - if this is your first time on this site then spend some time browsing around
     - to create a new record choose: Save Research Software
     - analyse the steps and check if anything is missing
@@ -158,11 +158,11 @@ Note: the steps in this activity are designed so that you don't need to have Git
             - to create an AUTHORS file, create a new file using a basic text editor
             - copy/paste the content of the example file from [Google Open Source](https://opensource.google/documentation/reference/releasing/authors)
             - make the necessary changes
-                - to provide additional information on author roles take a look at https://sdruskat.net/software-authorship/ 
+                - to provide additional information on author roles take a look at [https://sdruskat.net/software-authorship/](https://sdruskat.net/software-authorship/) 
             - save the file as AUTHORS or AUTHORS.txt
             - drag and drop the file to the root of your GitHub repo
             - commit your changes
-    - visit https://archive.softwareheritage.org/save/
+    - visit [https://archive.softwareheritage.org/save/](https://archive.softwareheritage.org/save/)
         - check if you are able to find the origin URL of your GitHub repo
         - do not submit so as not to create false records
 
@@ -189,7 +189,7 @@ Known dependencies:
 - pathlib
 
 This notebook has been used to generate the results for the following paper:
-Kjorveziroski, V., Filiposka, S. WebAssembly as an Enabler for Next Generation Serverless Computing. J Grid Computing 21, 34 (2023). https://doi.org/10.1007/s10723-023-09669-8
+Kjorveziroski, V., Filiposka, S. WebAssembly as an Enabler for Next Generation Serverless Computing. J Grid Computing 21, 34 (2023). [https://doi.org/10.1007/s10723-023-09669-8](https://doi.org/10.1007/s10723-023-09669-8)
 
 The work is done as part of the OSCAR-2023 project, funded by FINKI-UKIM
 
