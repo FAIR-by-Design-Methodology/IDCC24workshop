@@ -1,5 +1,5 @@
 ---
-title: "3 - FAIR assessment"
+title: "FAIR assessment"
 author: "Skills4EOSC & FAIR-IMPACT"
 tags: 
     - FAIR-by-Design
