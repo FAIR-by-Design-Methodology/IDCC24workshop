@@ -49,8 +49,9 @@ To perform FAIR assessment one can use a FAIR software checklist and manually go
       - [isseven](https://github.com/meadsteve/isseven)
 
 2. Use the FAIR software checklist developed by FAIR-IMPACT to assess the FAIRness of the chosen software object
-    - analyse each item of the following table by paying attention to the requirements, method, essential, important and useful aspects
+    - analyse each metric of the following table by paying attention to the requirements, method, essential, important and useful aspects
     - note that the specification for each of the metrics is available in [D5.2 - Metrics for automated FAIR software assessment in a disciplinary context](https://zenodo.org/records/10047401), chapter 2 Metric Specification page 12
+    - you may want to use [this webtool](https://softwaresaved.github.io/FAIR-software-checklist/fair-software-assessment.html) to help you go through each metric
 
 | **Identifier** | **Name** |
 |---|---|
@@ -72,20 +73,20 @@ To perform FAIR assessment one can use a FAIR software checklist and manually go
 | **FRSM-16** | Does the software metadata record include licensing information? |
 | **FRSM-17** | Does the software include provenance information that describe the development of the software? |
 
-3. Use an automated tool to assess the software FAIRness
+3. (if time) Use an automated tool to assess the software FAIRness
     - Although there are FAIR assessment tools for data, few are currently available for assessing software. 
     - Some examples of FAIR assessment tools for software that you can try include:
        - [FAIR Software Checklist](https://fairsoftwarechecklist.net/): this is a web checklist that asks you 15 questions about your software. This is similar to the FAIR-IMPACT metrics.
        - F-UJI: web version designed for data, though can be used for software. A software specific set of metrics is being implemented.
        - howfairis: Python tool that needs to be installed on your computer. Doesn't directly assess against the FAIR for research software principles.
 
-5. Compare the results from both approaches
+4. Compare the results from both approaches
     - discuss any problems or doubts during the process
     - what metrics did you find most useful to consider?
     - what metrics did you find hardest to check?
     - what metrics would you change to be more useful for your community / discipline?
 
-6. Prepare for retrospective
+5. Prepare for retrospective
     - what are your main impressions of this activities in 2-3 sentences
     - choose a group representatives that will share these impressions with the rest of the workshop participants
 
