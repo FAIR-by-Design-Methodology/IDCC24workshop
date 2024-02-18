@@ -1,0 +1,807 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="FAIR-IMPACT">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>FAIR Research Software Metrics - FAIR-by-Design Workshop</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="FAIR-by-Design Workshop" class="md-header__button md-logo" aria-label="FAIR-by-Design Workshop" data-md-component="logo">
+      
+  <img src="../../attachments/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Workshop
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              FAIR Research Software Metrics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FAIR-by-Design Workshop" class="md-nav__button md-logo" aria-label="FAIR-by-Design Workshop" data-md-component="logo">
+      
+  <img src="../../attachments/logo.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Workshop
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          00 Intro
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="00 Intro" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          00 Intro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00%20Intro/intro_content/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          01 FAIR IMPACT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 FAIR IMPACT" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          01 FAIR IMPACT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metadata_content/" class="md-nav__link">
+        Metadata for research software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          FAIR Research Software Metrics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        FAIR Research Software Metrics
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose-and-scope" class="md-nav__link">
+    Purpose and Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair4rs" class="md-nav__link">
+    FAIR4RS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-metrics" class="md-nav__link">
+    FAIR Metrics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          02 Skills4EOSC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Skills4EOSC" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          02 Skills4EOSC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02%20Skills4EOSC/FAIR-by-Design_content/" class="md-nav__link">
+        FAIR-by-Design Methodology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          03 Put it into practice
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 Put it into practice" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          03 Put it into practice
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03%20Put%20it%20into%20practice/1-train_content/" class="md-nav__link">
+        FAIR learning materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03%20Put%20it%20into%20practice/2-metadata_content/" class="md-nav__link">
+        FAIR research software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03%20Put%20it%20into%20practice/3-assessment_content/" class="md-nav__link">
+        FAIR assessment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose-and-scope" class="md-nav__link">
+    Purpose and Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair4rs" class="md-nav__link">
+    FAIR4RS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-metrics" class="md-nav__link">
+    FAIR Metrics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <span class="md-tag">FAIR Research Software</span>
+      
+    
+      
+      
+        <span class="md-tag">FAIR Assessment</span>
+      
+    
+  </nav>
+
+
+
+
+<blockquote>
+<p>The content of this page is based on - <a href="https://zenodo.org/records/10047401">D5.2 - Metrics for automated FAIR software assessment in a disciplinary context</a> by FAIR-IMPACT</p>
+</blockquote>
+<h1 id="introduction">Introduction</h1>
+<p>The deliverable from Task 5.2 (FAIR metrics for research software) on “Metrics for automated FAIR software assessment in a disciplinary context” is part of Work Package 5 on “Metrics, Certification and Guidelines“ within the FAIR-IMPACT project. It builds on the outputs of the RDA/ReSA/FORCE11 FAIR for Research Software WG and existing guidelines and metrics for research software to define metrics for the assessment of the “FAIR Principles for Research Software (FAIR4RS Principles)”. FAIR software can be defined as research software which adheres to these principles, and the extent to which a principle has been satisfied can be measured against the criteria in a metric. This work on software metrics was coordinated with Task 4.3 (Standard metadata for research software) from Work Package 4 on “Metadata and Ontologies”, which focuses on “Guidelines for recommended metadata standard for research software within EOSC“, to ensure that metrics are related to their recommended metadata properties.</p>
+<p>The deliverable defines 17 metrics that can be used to automate the assessment of research software against the FAIR4RS Principles, and provides examples of how these might be implemented in one exemplar disciplinary context of the social sciences. The FAIR-IMPACT project will then work to implement the metrics as practical tests by extending existing assessment tools such as F-UJI; this work will be reported in Q2 2024. Feedback will be sought from the community, through webinars and an open request for comments. The information from all these sources will be used to publish a revised version of the metrics.</p>
+<h2 id="purpose-and-scope">Purpose and Scope</h2>
+<p>To increase the adoption and uptake of the FAIR principles, this deliverable presents 17 metrics that can be used to translate the FAIR guiding principles into practical tests to measure the FAIRness of research software, that can be implemented in an automated fashion via assessment tools for the different infrastructures in the scholarly ecosystem (software aggregators, software publishers, scholarly repositories and software archives).</p>
+<p>The metrics are developed to be domain-agnostic, and take into account characteristics which are specific to research software such as its executability, its composite nature and its continuous evolution and versioning. Though most of the FAIR4RS Principles (summarised in Table 1) can be turned into a measurable metric, some (e.g. “F2. Software is described with rich metadata”) are much harder to quantify, and hence be assessed by any automated tool in the future. In these cases, it may only be possible to test for existence rather than quality or correctness. Others, such as “R3. Software meets domain-relevant community standards” can be seen to apply to many metrics, and the implementation of a metric will reference these community standards.</p>
+<h2 id="fair4rs">FAIR4RS</h2>
+<p>The FAIR Principles for Research Software (FAIR4RS Principles) are (from Table 1 in Chue Hong et al., 2022):</p>
+<p>F: Software, and its associated metadata, is easy for both humans and machines to find.</p>
+<ul>
+<li>F1. Software is assigned a globally unique and persistent identifier.<ul>
+<li>F1.1. Components of the software representing levels of granularity are assigned distinct identifiers.</li>
+<li>F1.2. Different versions of the software are assigned distinct identifiers.</li>
+</ul>
+</li>
+<li>F2. Software is described with rich metadata.</li>
+<li>F3. Metadata clearly and explicitly include the identifier of the software they describe. F4. Metadata are FAIR, searchable and indexable.</li>
+</ul>
+<p>A: Software, and its metadata, is retrievable via standardized protocols.</p>
+<ul>
+<li>A1. Software is retrievable by its identifier using a standardized communications protocol.<ul>
+<li>A1.1. The protocol is open, free, and universally implementable.</li>
+<li>A1.2. The protocol allows for an authentication and authorization procedure, where necessary.</li>
+</ul>
+</li>
+<li>A2. Metadata are accessible, even when the software is no longer available.</li>
+</ul>
+<p>I: Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards.</p>
+<ul>
+<li>I1. Software reads, writes and exchanges data in a way that meets domain-relevant community standards. I2. Software includes qualified references to other objects.</li>
+</ul>
+<p>R: Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).</p>
+<ul>
+<li>R1. Software is described with a plurality of accurate and relevant attributes.<ul>
+<li>R1.1. Software is given a clear and accessible license.</li>
+<li>R1.2. Software is associated with detailed provenance.</li>
+</ul>
+</li>
+<li>R2. Software includes qualified references to other software. </li>
+<li>R3. Software meets domain-relevant community standards.</li>
+</ul>
+<h2 id="fair-metrics">FAIR Metrics</h2>
+<p>The metrics presented in the next sections are specified following the template, modified from Wilkinson et al. (2018) and Devaraju et al. (2022):</p>
+<ul>
+<li>Metric Identifier - The local identifier of the metric (FRSM-XX) FRSM: FAIR Research Software Metric.</li>
+<li>Metric Name - Metric name in a human readable form.</li>
+<li>Description - The definition of the metric, including examples.</li>
+<li>FAIR4RS Principle - The FAIR4RS principle(s) most related to the metric.</li>
+<li>RSMD Recommendation - The FAIR-IMPACT RSMD recommendation(s) most related to the metric</li>
+<li>Assessment - Requirements and methods to perform the assessment against the metric. This includes a suggested compliance level (essential / important / useful), based on the concepts introduced by the FAIR Data Maturity Model Working Group (2020). Criteria at each level will change as adoption of FAIR increases.</li>
+<li>Comments - Further notes associated with the implementation of the metric, which may include related resources, constraints and limitations.</li>
+</ul>
+<p>List of FAIR Research Software Metrics:</p>
+<ul>
+<li>FRSM-01 - Does the software have a globally unique and persistent identifier?</li>
+<li>FRSM-02 - Do the different components of the software have their own identifiers?</li>
+<li>FRSM-03 - Does each version of the software have a unique identifier?</li>
+<li>FRSM-04 - Does the software include descriptive metadata which helps define its purpose?</li>
+<li>FRSM-05 - Does the software include development metadata which helps define its status?</li>
+<li>FRSM-06 - Does the software include metadata about the contributors and their roles?</li>
+<li>FRSM-07 - Does the software metadata include the identifier for the software?</li>
+<li>FRSM-08 - Does the software have a publicly available, openly accessible and persistent metadata record?</li>
+<li>FRSM-09 - Is the software developed in a code repository / forge that uses standard communications protocols?</li>
+<li>FRSM-10 - Are the formats used by the data consumed or produced by the software open and a reference provided to the format?</li>
+<li>FRSM-11 - Does the software use open APIs that support machine-readable interface definition?</li>
+<li>FRSM-12 - Does the software provide references to other objects that support its use?</li>
+<li>FRSM-13 - Does the software describe what is required to use it?</li>
+<li>FRSM-14 - Does the software come with test cases to demonstrate it is working?</li>
+<li>FRSM-15 - Does the software source code include licensing information for the software and any bundled external software?</li>
+<li>FRSM-16 - Does the software metadata record include licensing information?</li>
+<li>FRSM-17 - Does the software include provenance information that describe the development of the software?</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>The FAIR Impact project will work to implement the metrics as practical tests by extending existing assessment tools such as F-UJI; this work will be reported in Q2 2024.</p>
+<h2 id="suggested-reading">Suggested Reading</h2>
+<ul>
+<li><a href="https://zenodo.org/records/10047401">D5.2 - Metrics for automated FAIR software assessment in a disciplinary context</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../metadata_content/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Metadata for research software" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Metadata for research software
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../../02%20Skills4EOSC/FAIR-by-Design_content/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: FAIR-by-Design Methodology" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          FAIR-by-Design Methodology
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+      
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+    <div class="md-container">
+
+      <div class="cite-example md-copyright">
+        <div class="md-footer-meta__inner md-grid" style="justify-content: center; align-items: center;">
+          Cite as:
+          
+            
+            
+            
+              Filiposka, Sonja,
+            
+          
+            
+            
+            
+              Mishev, Anastas,
+            
+          
+            
+            
+            
+              Green, Dominique,
+            
+          
+            
+            
+            
+              Whyte, Angus,
+            
+          
+            
+            
+            
+              Davidson, Joy,
+            
+          
+            
+            
+            
+              Chue Song, Neil,
+            
+          
+            
+            
+            
+              Gruenpeter, Morane,
+            
+          
+            
+            
+            
+              Antonioletti, Mario.
+            
+          
+          (2024). FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT (1.0.1). 
+          <a href="https://doi.org/10.5281/zenodo.10676532">&nbsp;https://doi.org/10.5281/zenodo.10676532</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>
