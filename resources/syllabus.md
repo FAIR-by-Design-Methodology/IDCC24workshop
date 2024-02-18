@@ -19,7 +19,7 @@ abstract: "The main goal of the workshop is to introduce participants to the pro
 primaryLanguage: "EN"
 license: "http://creativecommons.org/licenses/by/4.0/"
 versionDate: "2024-02-19"
-urlToResource: "https://doi.org/10.5072/zenodo.1234567"
+urlToResource: "https://doi.org/10.5281/zenodo.10676532"
 resourceURLType: "URL"
 targetGroup: "Research software developers, training materials designers"
 learningResourceType: "GitBook"
@@ -108,7 +108,7 @@ Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org
 
 ## DOI
 
-[https://doi.org/10.5072/zenodo.1234567](https://doi.org/10.5072/zenodo.1234567)
+[https://doi.org/10.5281/zenodo.10676532](https://doi.org/10.5281/zenodo.10676532)
 
 ## Accessibility Mission
 
