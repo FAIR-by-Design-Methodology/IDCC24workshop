@@ -35,7 +35,7 @@ authors:
     affiliation: University of Edinburgh
 title: "FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT"
 abstract: "The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects."
-version: 1.0.0
+version: 1.0.1
 doi: 10.5070/zenodo.123
 date-released: "2024-02-18"
 license: CC-BY-4.0
