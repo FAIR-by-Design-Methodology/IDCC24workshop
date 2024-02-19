@@ -77,10 +77,10 @@ To perform FAIR assessment one can use a FAIR software checklist and manually go
     - Although there are FAIR assessment tools for data, few are currently available for assessing software. 
     - Some examples of FAIR assessment tools for software that you can try include:
        - [FAIR Software Checklist](https://fairsoftwarechecklist.net/): this is a web checklist that asks you 15 questions about your software. This is similar to the FAIR-IMPACT metrics.
-       - F-UJI: web version designed for data, though can be used for software. A software specific set of metrics is being implemented.
-       - howfairis: Python tool that needs to be installed on your computer. Doesn't directly assess against the FAIR for research software principles.
+       - [F-UJI](https://www.f-uji.net/): web version designed for data, though can be used for software. A software specific set of metrics is being implemented.
+       - [howfairis](https://github.com/fair-software/howfairis): Python tool that needs to be installed on your computer. Doesn't directly assess against the FAIR for research software principles.
 
-4. Compare the results from both approaches
+4. Discuss the results from the approaches you tried
     - discuss any problems or doubts during the process
     - what metrics did you find most useful to consider?
     - what metrics did you find hardest to check?
