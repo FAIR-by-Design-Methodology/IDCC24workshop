@@ -8,6 +8,10 @@ tags:
 
 > the content of this page is based on [D4.4 - Guidelines for recommended metadata standard for research software within EOSC](https://zenodo.org/records/8199104) by FAIR-IMPACT
 
+!!! note "Slides"
+
+    [Download the slides regarding Guidelines on Metadata for Research Software here](./RSMD%20Guidelines.pptx)
+
 # Introduction
 
 The FAIR-IMPACT Guidelines for recommended metadata standards for research software within the EOSC present the first proposal of the Research Software MetaData (RSMD) Guidelines, developed by Task 4.3 (T4.3), Standard metadata for research software, as part of Work Package 4, Metadata and ontologies, in the FAIR-IMPACT project. FAIR-IMPACT aims to realize a FAIR (Findable, Accessible, Interoperable, and Reusable) European Open Science Cloud (EOSC) by leveraging community guidelines and existing infrastructures in the scholarly ecosystem.
