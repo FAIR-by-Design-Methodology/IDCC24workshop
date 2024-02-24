@@ -10,7 +10,7 @@ tags:
 
 # Slides
 
-[Download the slides regarding FAIR Research Software Metrics here](./FAIR%20Research%20Software%20Metrics.pptx)
+[Download the slides regarding FAIR Research Software Metrics here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/01%20FAIR-IMPACT/FAIR%20Research%20Software%20Metrics.pptx){:download}
 
 
 # Introduction
