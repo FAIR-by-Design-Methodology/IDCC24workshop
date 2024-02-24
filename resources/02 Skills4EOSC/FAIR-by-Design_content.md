@@ -10,6 +10,8 @@ tags:
 
 [Download the slides regarding the FAIR-by-Design Methodology here](./Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
+<a href="./Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx" download>presentation.pptx</a>
+
 
 # Introduction
 
