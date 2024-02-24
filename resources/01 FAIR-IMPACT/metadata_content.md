@@ -10,7 +10,7 @@ tags:
 
 # Slides
 
-[Download the slides regarding Guidelines on Metadata for Research Software here](./RSMD%20Guidelines.pptx)
+[Download the slides regarding Guidelines on Metadata for Research Software here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/01%20FAIR-IMPACT/RSMD%20Guidelines.pptx){:download}
 
 # Introduction
 
