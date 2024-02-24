@@ -8,6 +8,11 @@ tags:
 
 > The content of this page is based on - [D5.2 - Metrics for automated FAIR software assessment in a disciplinary context](https://zenodo.org/records/10047401) by FAIR-IMPACT
 
+!!! note "Slides"
+
+    [Download the slides regarding FAIR Research Software Metrics here](./FAIR%20Research%20Software%20Metrics.pptx)
+
+
 # Introduction
 
 The deliverable from Task 5.2 (FAIR metrics for research software) on “Metrics for automated FAIR software assessment in a disciplinary context” is part of Work Package 5 on “Metrics, Certification and Guidelines“ within the FAIR-IMPACT project. It builds on the outputs of the RDA/ReSA/FORCE11 FAIR for Research Software WG and existing guidelines and metrics for research software to define metrics for the assessment of the “FAIR Principles for Research Software (FAIR4RS Principles)”. FAIR software can be defined as research software which adheres to these principles, and the extent to which a principle has been satisfied can be measured against the criteria in a metric. This work on software metrics was coordinated with Task 4.3 (Standard metadata for research software) from Work Package 4 on “Metadata and Ontologies”, which focuses on “Guidelines for recommended metadata standard for research software within EOSC“, to ensure that metrics are related to their recommended metadata properties.
