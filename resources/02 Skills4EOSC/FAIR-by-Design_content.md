@@ -8,9 +8,9 @@ tags:
 
 # Slides
 
-[Download the slides regarding the FAIR-by-Design Methodology here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/blob/277ae8962618a3b4c56d163e3d2178a67c6ee346/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides regarding the FAIR-by-Design Methodology here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
-<a href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/blob/277ae8962618a3b4c56d163e3d2178a67c6ee346/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx" download>presentation.pptx</a>
+<a href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx" download>presentation.pptx</a>
 
 
 # Introduction
