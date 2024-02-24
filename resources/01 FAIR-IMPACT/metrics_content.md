@@ -10,7 +10,7 @@ tags:
 
 # Slides
 
-    [Download the slides regarding FAIR Research Software Metrics here](./FAIR%20Research%20Software%20Metrics.pptx)
+[Download the slides regarding FAIR Research Software Metrics here](./FAIR%20Research%20Software%20Metrics.pptx)
 
 
 # Introduction
