@@ -8,7 +8,7 @@ tags:
 
 > the content of this page is based on [D4.4 - Guidelines for recommended metadata standard for research software within EOSC](https://zenodo.org/records/8199104) by FAIR-IMPACT
 
-!!! note "Slides"
+# Slides
 
     [Download the slides regarding Guidelines on Metadata for Research Software here](./RSMD%20Guidelines.pptx)
 
