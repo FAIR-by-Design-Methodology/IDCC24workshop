@@ -27,6 +27,8 @@ plugins:
         - "*syllabus.md"
       regex:
         - '.*\.(tmp|bin|tar)$'
+markdown_extensions:
+  - attr_list
 extra:
   version:
     provider: mike
