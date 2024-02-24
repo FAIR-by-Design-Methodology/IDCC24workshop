@@ -10,7 +10,7 @@ tags:
 
 # Slides
 
-    [Download the slides regarding Guidelines on Metadata for Research Software here](./RSMD%20Guidelines.pptx)
+[Download the slides regarding Guidelines on Metadata for Research Software here](./RSMD%20Guidelines.pptx)
 
 # Introduction
 
