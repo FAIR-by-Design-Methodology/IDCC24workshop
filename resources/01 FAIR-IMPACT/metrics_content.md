@@ -8,7 +8,7 @@ tags:
 
 > The content of this page is based on - [D5.2 - Metrics for automated FAIR software assessment in a disciplinary context](https://zenodo.org/records/10047401) by FAIR-IMPACT
 
-!!! note "Slides"
+# Slides
 
     [Download the slides regarding FAIR Research Software Metrics here](./FAIR%20Research%20Software%20Metrics.pptx)
 
