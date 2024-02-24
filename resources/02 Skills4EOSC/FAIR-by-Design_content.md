@@ -6,6 +6,11 @@ tags:
     - FAIR-by-Design Software Objects
 ---
 
+# Slides
+
+[Download the slides regarding the FAIR-by-Design Methodology here](./Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx)
+
+
 # Introduction
 
 The FAIR-by-Design Methodology for developing learning materials has been introduced by Skills4EOSC aiming to provide a comprehensive way of developing FAIR learning materials where the necessary FAIR elements are embedded in the materials design process. In this way the methodology guarantees that the produced materials will be FAIR not just from the point of view of the learners, but also other designers and trainers that would like to reuse and adapt the materials for their own purposes. 
